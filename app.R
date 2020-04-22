@@ -1,3 +1,15 @@
+#
+# This is a template Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+# Author: Owen Bezick
+# 
+
+# Source Libraries
 # Libraries 
 
 # Shiny
@@ -20,8 +32,8 @@ ui <- dashboardPage(
     # Sidebar ----
     , dashboardSidebar( 
         sidebarMenu(
-            menuItem(tabName = "welcome", text = "Welcome", icon = icon("info"))
-            , menuItem(tabName = "data1", text = "Data Exploration", icon = icon("data"))
+            menuItem(tabName = "welcome", text = "Welcome", icon = icon("info")) 
+            , menuItem(tabName = "dataExploration", text = "Data Exploration", icon = icon("data"))
             , menuItem(tabName = "data2", text = "More Data Exploration", icon = icon("data"))
         )
     )
@@ -64,38 +76,19 @@ ui <- dashboardPage(
             )
             # Data Viz ---- 
             , tabItem(
-                tabName = "data1"
+                tabName = "dataExploration"
                 , fluidRow(
-                    column(width = 12
+                    column(width = 6
                            , plotlyOutput("time")
                     )
-                )
-            )
-            , tabItem(
-                tabName = "data2"
-                , fluidRow(
-                    column(width = 12
-                           , plotlyOutput("island")
+                    , column(width = 6
+                             , plotlyOutput("island")
                     )
                 )
             )
-            # , tabItem(
-            #     tabName = "results"
-            #     , fluidRow(
-            #         box(width = 12, title = "Our Findings", status = "primary"
-            #             , column(width = 6
-            #                      , HTML("<b> Time of Day Results </b>")
-            #                      , uiOutput("aboutText")
-            #                      
-            #             )
-            #             , column(width = 6
-            #                      , HTML("<b> Island Nation Results </b>")
-            #                      , uiOutput("modernPiracy")
-            #             )
-            #         )
-            #         
-            #     )
-            # )
+            #################################################
+            #we want to add teh results page here but there is some sort of disconnect b/w server and ui... when i add
+            #this tabItem it will set up the pages correctly but no data/maps/text on any of the pages. "helloWorld" text commented out rn.
             # , tabItem(
             #     tabName = "report"
             #     , fluidRow(
@@ -121,9 +114,10 @@ ui <- dashboardPage(
 # Define server logic 
 server <- function(input, output) {
     # Data Import ----
-    pirate <- read_rds("pirate.RDS")
+    pirate <- read_rds("df_pirate.RDS")
     
     # Welcome ----
+    # renderText output ----
     output$aboutText <- renderText("For the Pirate Attack Project, we chose to look at the International Maritime Bureau’s 
                                    data on piracy world from 2015-2019, focusing on 2019. Misconceptions about modern piracy 
                                    flood our imaginations with pictures of eye patches, skull & crossbones, and scruffy men 
@@ -131,27 +125,25 @@ server <- function(input, output) {
                                    these misconceptions and shed light on the trends and issues surrounding theft on the high 
                                    seas in 2020. Through interactive maps, charts, and authentic attack narrations, we explore 
                                    questions like “Are ships from island nations more likely to experience attacks?” or “What 
-                                   time of day should crews be most on their guard against intruders?”.  We are intrigued as 
-                                   to how the Pirate Attack Project will change our (and hopefully your) thinking about piracy.") 
-
+                                   time of day should crews be most on their guard against intruders?”.  We are intrigued as to
+                                   how the Pirate Attack Project will change our (and hopefully your) thinking about piracy.")
+    
     output$modernPiracy <- renderText("A partial definition according to the International Maritime Bureau says “piracy” is 
     “any illegal acts of violence or detention, or any act of depredation, committed for private ends by the crew or the 
     passengers of a private ship or a private aircraft, and directed on the high seas, against another ship or aircraft, 
-    or against persons or property on board such ship or aircraft.” Modern pirates are not usually carefree adventurers
-                                      looking for some treasure and a good time. Often, pirates are poor men using rafts, 
-                                      old boats, and a variety of simple weapons to carry out amateur attacks. For example,
-                                      when international fishing vessels began encroaching on Somali waters, depleting fish 
-                                      stocks and forcing fishermen out of business, Somali pirate groups began to form. In the 
-                                      Gulf of Aden, Somali pirates soon became a high-profile issue. Next, did you know that the
-                                      “gold” for modern pirates is not a heavy yellow metal? Ransoms paid to recover hostage 
-                                      sailors are the true modern “treasures” in the world of piracy. Sailors face this continual 
-                                      threat in areas like the Gulf of Guinea, the Strait of Malacca, the Indian Ocean, and the
-                                      Singapore Straits. Have you ever thought of insurance costs involved with a 21st century pirate
-                                      attack? Many ships refrain from reporting incidents to avoid higher insurance costs. Several
-                                      other factors influence the likelihood of piracy today, such as the flag your ship flies, the
-                                      time of day, or the city where your ship is berthed.")
+    or against persons or property on board such ship or aircraft.”Modern pirates are not usually carefree adventurers looking
+    for some treasure and a good time. Often, pirates are poor men using rafts, old boats, and a variety of simple weapons to 
+    carry out amateur attacks. For example, when international fishing vessels began encroaching on Somali waters, depleting 
+    fish stocks and forcing fishermen out of business, Somali pirate groups began to form. In the Gulf of Aden, Somali pirates 
+    soon became a high-profile issue. Next, did you know that the “gold” for modern pirates is not a heavy yellow metal? Ransoms 
+    paid to recover hostage sailors are the true modern “treasures” in the world of piracy. Sailors face this continual threat in 
+    areas like the Gulf of Guinea, the Strait of Malacca, the Indian Ocean, and the Singapore Straits. Have you ever thought of 
+    insurance costs involved with a 21st century pirate attack? Many ships refrain from reporting incidents to avoid higher insurance
+    costs. Several other factors influence the likelihood of piracy today, such as the flag your ship flies, the time of day, or the 
+    city where your ship is berthed.")
     
-    # Map Graphics ----
+    # MAP
+    # DATA
     # List of regions
     ls_region <- unique(pirate$region)
     
@@ -165,7 +157,7 @@ server <- function(input, output) {
         sliderInput("time", "Hour of Day:", min = 0, max = 2400, value = c(0,2400), step = 100)
     })
     
-    # Pirate Dataframe
+    # Reactive Dataframe
     pirate_R <- reactive({
         req(input$region, input$time)
         pirate %>%
@@ -173,14 +165,16 @@ server <- function(input, output) {
             filter(time > input$time[1] & time < input$time[2])
     })
     
-    # Map 
+    # Viz
     # Icon
     shipIcon <- makeIcon(
         iconUrl = "historic_ship.png",
         iconWidth = 30, iconHeight = 30,
         iconAnchorX = 22, iconAnchorY = 94,
     )
-    
+
+    #TODO  add "ship_name" and "flag" variables in the popup. still gotta figure out how to. 
+    # Have the ship_name as a label right now.
     # Leaflet
     output$map <- renderLeaflet({
         df <- pirate_R()
@@ -197,7 +191,7 @@ server <- function(input, output) {
                              options = layersControlOptions(collapsed = FALSE))
     })
     
-    #
+    # Data Viz ----
     #time of day
     chart1 <- pirate %>% 
         ggplot(aes(x = time)) +
@@ -208,6 +202,8 @@ server <- function(input, output) {
     
     
     # Radial stacked bar chart
+    ###########################################33
+    #currently planning to un-plotly this chart and animate it instead. But issue rn is we can't get it to show up next to the other chart.
     output$time <- renderPlotly({
         ggplotly(chart1, tooltip = "text") %>% 
             layout(title = list(text = paste0('Attacks Per Hour',
@@ -217,26 +213,16 @@ server <- function(input, output) {
                                               '</sup>')))
     })
     
-    #Create islands list
-    islands <- c("Antigua and Barbuda", "Bahamas","Bahrain", "Barbados","Brunei","Cape Verde","Comoros","Cook Islands","Cuba","Cyprus","Dominica","Dominican Republic","East Timor","Federated States of Micronesia","Fiji","Grenada, Carriacou and Petite Martinique","Haiti","Iceland","Indonesia","Republic of Ireland","Jamaica","Japan","Kiribati","Madagascar", "Maldives","Malta","Marshall Islands","Mauritius","Nauru","New Zealand","Niue", "Northern Cyprus","Palau","Papua New Guinea","Philippines","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","São Tomé and Príncipe", "Seychelles","Singapore","Solomon Islands","Sri Lanka","Taiwan","Tonga","Trinidad and Tobago","Tuvalu","United Kingdom","Vanuatu", "Cayman Island", "Isle of Man", "Hong Kong")
-    
-    #add a column in pirates dataset on whether or not the nation is an island
-    pirate <- pirate %>%
-        mutate(typeC = case_when(
-            flag %in% islands ~ "Island Nation", TRUE ~ "Mainland Nation"))
-    
-    #create a new df with info on frequencies of atackt for each country
-    counts <- pirate %>% 
+    # Island Viz
+    # Data
+    island_df <- pirate %>% 
         group_by(flag) %>% 
-        count(sort = TRUE)
-    
-    #format the frequency
-    counts <- counts %>%
+        count(sort = TRUE) %>%
         mutate(frequency = (n / 163), typeC = case_when(
             flag %in% islands ~ "Island Nation", TRUE ~ "Mainland Nation") , percentage = frequency * 100)
     
     #make a plot with the info
-    chart2 <- counts %>% 
+    island_plot <- island_df %>% 
         head(10) %>%
         ggplot()+
         geom_point(aes(x=reorder(flag, desc(frequency)), y = frequency, color = typeC, text = sprintf("Frequency: %.2f%% <br>Number of Ships Attacked: %.0f<br> ", percentage, n)
@@ -248,7 +234,7 @@ server <- function(input, output) {
     
     #make the graph plotly
     output$island <- renderPlotly({
-        ggplotly(chart2, tooltip = "text") %>% 
+        ggplotly(island_plot, tooltip = "text") %>% 
             layout(title = list(text = paste0('Frequency of Pirate Attacks For Island Nations Versus Mainland Nations',
                                               '<br>',
                                               '<sup>',

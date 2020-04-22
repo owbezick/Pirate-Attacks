@@ -28,3 +28,13 @@ pirate <- pirate %>%
          longitude = lo_deg + (lo_min / 60),
          latitude = la_deg + (la_min / 60)) %>% 
   select(-lo_deg, -lo_min, -la_deg, -la_min)
+
+#Create islands list
+islands <- c("Antigua and Barbuda", "Bahamas","Bahrain", "Barbados","Brunei","Cape Verde","Comoros","Cook Islands","Cuba","Cyprus","Dominica","Dominican Republic","East Timor","Federated States of Micronesia","Fiji","Grenada, Carriacou and Petite Martinique","Haiti","Iceland","Indonesia","Republic of Ireland","Jamaica","Japan","Kiribati","Madagascar", "Maldives","Malta","Marshall Islands","Mauritius","Nauru","New Zealand","Niue", "Northern Cyprus","Palau","Papua New Guinea","Philippines","Saint Kitts and Nevis","Saint Lucia","Saint Vincent and the Grenadines","Samoa","São Tomé and Príncipe", "Seychelles","Singapore","Solomon Islands","Sri Lanka","Taiwan","Tonga","Trinidad and Tobago","Tuvalu","United Kingdom","Vanuatu", "Cayman Island", "Isle of Man", "Hong Kong")
+
+#add a column in pirates dataset on whether or not the nation is an island
+pirate <- pirate %>%
+  mutate(typeC = case_when(
+    flag %in% islands ~ "Island Nation", TRUE ~ "Mainland Nation"))
+
+write_rds(pirate, "df_pirate.RDS")
