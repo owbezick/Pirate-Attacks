@@ -167,8 +167,6 @@ server <- function(input, output) {
         iconAnchorX = 0, iconAnchorY = 0,
     )
     
-    #TODO  add "ship_name" and "flag" variables in the popup. still gotta figure out how to. 
-    # Have the ship_name as a label right now.
     # Leaflet
     output$map <- renderLeaflet({
         df <- pirate_R()
