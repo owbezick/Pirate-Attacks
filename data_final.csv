@@ -1,0 +1,579 @@
+ref,date,time,boat_status,attack_status,ship_name,type,flag,grt,imo_number,latitude,longitude,position,waters,narration,region,success
+1,10.01.2019,2200,anchored,boarded,Mito,general cargo,Panama,9815,9587788,05:59.1S,105:56.2E,Ciwandan Anchorage,Indonesia,"During routine rounds, duty crew onboard an anchored ship noticed the lock to the engine store broken and ship's spares missing. Incident reported to local agents. ",South East Asia,actual
+2,05.02.2019,2205,anchored,boarded,Maersk Capri,chemical tanker,Singapore,29816,9786140,03:55.4N,098:47.0E ,Belawan Anchorage,Indonesia,"Duty crew on routine rounds onboard an anchored tanker noticed a robber escaping via the hawse pipe and raised the alarm. Crew mustered and on searching the tanker, ship’s properties reported missing. ",South East Asia,actual
+3,19.02.2019,1345,anchored,boarded,Peterborough,bulk carrier,Liberia,32672,9483180,03:41.36S ,114:26.46E ,Taboneo Anchorage,Indonesia,"While carrying out routine rounds onboard an anchored ship, duty crew noticed the forecastle store door forced open and ship’s properties missing. Incident reported to Taboneo Port Control. Marine police boarded the ship to investigate and collect evidence. ",South East Asia,actual
+4,26.03.2019,1230,anchored,boarded,Nakhal Silver,product tanker,Marshall Islands,29354,9718765,13:44N ,121:02E ,Batangas Anchorage,Philippines,"Duty crew on routine rounds noticed a robber near the forecastle and raised the alarm. Crew mustered and approached the forecastle. Seeing the alerted crew, the robber escaped with stolen ship’s stores. On investigating it was reported that the robber gained access via the anchor chain. Incident reported to Coast Guard. ",South East Asia,actual
+5,26.03.2019 ,2030,anchored,boarded,TRF Kaya,container,Liberia,28616,9330549,14:33.3N ,120:54.1E ,Manila South Quarantine Anchorage,Philippines,Robbers boarded an anchored ship unnoticed and escaped with ship’s properties. The theft was noticed by duty watchman during routine rounds. It was reported that the razor wire installed at the hawse pipe was removed. Footprints were found on the deck and the bosun store was broken into. VTMS Manila and local agent informed. Coast Guard personnel boarded the ship for investigation. ,South East Asia,actual
+6,26.04.2019 ,2105,berthed,boarded,Jackson Bay,container,Liberia,39912,9322358,06:05.7S ,106:55.2E ,Jakarta Container Terminal,Indonesia,Duty oiler on routine rounds noticed robbers in the engine room and raised the alarm resulting in the robbers escaping empty handed. A search was made throughout the ship. Nothing reported stolen. ,South East Asia,actual
+7,11.05.2019 ,1000,anchored,boarded,Princess Paula,bulk carrier,Hong Kong,19885,9300207,01:42.76N ,101:26.62E,"Lubuk Gaung Anchorage, Duamai Port",Indonesia,"Unnoticed thieves boarded the ship, stole engine spare parts and escaped. The theft was noticed by duty crew when they noticed the engine store room padlock broken. ",South East Asia,actual
+8,12.05.2019 ,1810,steaming,boarded,Da Yang Bai Li,general cargo,China,7216,9607978,01:00.1N ,104:54.8E ,Around 4nm East of Pulau Mapur,Indonesia,Four robbers armed with long knives boarded the ship underway. They took hostage the duty AB and entered into the Master’s cabin. They tied up the AB and the Master and escaped with their personal cash and effects. ,South East Asia,actual
+9,18.05.2019 ,800,steaming,boarded,Barlian T1201,tug,Niue,153,9433432,01:13.00N ,103:34.50E ,"Around 3.4nm SSE of Tanjung Piai, Johor",Malaysia,"Persons from five wooden boats, illegally boarded and stole properties from a crane barge under tow by a tug. The tug Master contacted the Authorities and reported the incident. ",South East Asia,actual
+9,18.05.2019 ,800,steaming,boarded,Smit Cyclone,Crane Barge,Singapore,2700,7603588,01:13.00N ,103:34.50E ,"Around 3.4nm SSE of Tanjung Piai, Johor",Malaysia,"Persons from five wooden boats, illegally boarded and stole properties from a crane barge under tow by a tug. The tug Master contacted the Authorities and reported the incident. ",South East Asia,actual
+10,23.05.2019 ,1330,anchored,boarded,Odysseas L,bulk carrier,Liberia,44180,9597381,03:43.0S ,114:26.3E ,Taboneo Anchorage,Indonesia,"Seven persons armed with knives, boarded an anchored ship. Duty watchman raised the alarm and crew mustered. The persons threatened the crew, stole ship’s stores and escaped. Incident reported to Taboneo Port Control. A patrol boat was dispatched to investigate. ",South East Asia,actual
+11,28.05.2019 ,1852,berthed,boarded,CSK Enterprise,bulk carrier,Singapore,107449,9816555,05:59.8S ,105:57.8E ,"D6 Berth, Cigading Port",Indonesia,"Duty watchman on routine rounds noticed two robbers in the steering gear room during safety patrols and immediately informed the OOW who sounded the ship’s whistle and PA announcement made. On searching the ship, ship’s crew found the steering gear room's lock broken and engine spares stolen. ",South East Asia,actual
+12,31.05.2019 ,1530,anchored,boarded,SafeSea Neha II,bulk carrier,Liberia,31144,9347918,01:35.83N ,104:28.73E ,"Around 13nm ENE of Bandar Penawar, Johor",Malaysia,"Duty Officers onboard an anchored ship noticed an unauthorised person on the forecastle and proceeded to investigate. As the officers arrived, the person threatened them with a knife and escaped with his accomplice who was waiting in a boat. Incident reported to the local authorities. Coast Guard boarded the ship to investigate. Nothing reported stolen. ",South East Asia,actual
+13,17.06.2019 ,1800,steaming,boarded,SA/232/5/F,fishing vessel,Malaysia,NA,NA,NA,NA,"Enroute from Tambisan to Semporna, Sabah",Malaysia,Two fishing vessels with 16 crews were approached and boarded by armed persons while en route from Tambisan to Semporna. The armed persons kidnapped 10 crews and escaped. Local authorities notified. The nine crew were reported released on 21.06.2019. One remaining crew still held. ,South East Asia,actual
+14,30.06.2019 ,930,berthed,boarded,NA,bulk carrier,Marshall Islands,36336,NA,NA,NA,"Berth 115 Tanjung Priok Port, Jakarta",Indonesia,"Unnoticed, robbers boarded the berthed ship during cargo operations. Duty Bosun on routine rounds noticed the store padlock broken and notified the OOW. Alarm raised, and crew mustered. Ship’s properties reported stolen. Incident reported to the Port Authorities. The Port Security Police and the Coast Guard boarded the ship for investigation. ",South East Asia,actual
+15,11.07.2019 ,230,steaming,boarded,Modalwan No.11,tug,Malaysia,91,NA,01:13N ,103:31E ,"Around 2.9nm South of Tanjung Piai, Johor",Malaysia,"Six small wooden boats approached the tug and barge underway. The unauthorised persons boarded the barge, stole its cargo of scrap metal and escaped. The Master contacted the local authorities who dispatched a patrol vessel to investigate.",South East Asia,actual
+16,21.07.2019 ,1925,steaming,boarded,CK Bluebell,bulk carrier,South Korea,44132,9595876,02:55.8N ,105:10.8E ,Around 16nm NW of Pulau Damar,Indonesia,"Seven pirates armed with a pistol and knives in a small speed boat boarded the ship underway using a ladder attached with a hook. Master and the second officer taken hostage, tied up and assaulted by the pirates. The pirates stole cash and crew personal belongings before escaping. Incident reported to Korean Authorities. ",South East Asia,actual
+17,22.07.2019 ,2300,berthed,boarded,Crest Onyx,offshore tug,Indonesia,1727,9655717,01:04.15N,103:54.20E,"PT Dharma Sentosa Marindo Yard, Batam",Indonesia,"Four robbers in a boat approached and boarded the berthed offshore tug. Second mate on routine rounds noticed footprints on the main deck. Further checks revealed a storeroom padlock broken. Alarm raised and crew mustered. Vessel’s properties were reported stolen. The following day at 2100 UTC, a suspicious boat came alongside the tug with two persons onboard. One of them was armed with a knife. Alert crew raised the alarm resulting in the boat moving away. Incident reported to PFSO and Yard Manager. ",South East Asia,actual
+18,27.07.2019 ,1955,berthed,boarded,Bright Dawn,product tanker,Panama,30042,9362372,01:45.5N ,101:22.0E ,"SDS Terminal, St 1, Lubuk Gaung",Indonesia,"Four armed robbers boarded the berthed tanker during cargo operations. Alert crew noticed the robbers near the engine room and raised the alarm. Upon hearing the alarm and seeing the crew alertness, the robbers escaped through the steering gear room. A search was carried out. It was reported that engine spares were stolen. Incident reported to the PFSO. ",South East Asia,actual
+19,30.07.2019 ,2220,steaming,boarded,Sichem Rio,chemical tanker,Malta,8562,9322073,06:01.1S ,106:52.8E ,"Around 5nm North of Tanjung Priok, Jakarta",Indonesia,"Six robbers armed with knives boarded the tanker waiting for pilot. They injured the Chief Engineer on routine rounds. Alarm raised and crew mustered. Seeing the crew alertness, the robbers escaped empty handed. Incident reported to the VTS. ",South East Asia,actual
+20,30.07.2019 ,2320,anchored,boarded,Strategic Unity,bulk carrier,Singapore,24641,9648099,03:56.8N ,098:48.7E ,Belawan Anchorage,Indonesia,"Two robbers boarded an anchored ship. Alarm raised and crew mustered. Seeing the crew alertness, the robbers escaped empty handed. Incident reported to Port Control. ",South East Asia,actual
+21,20.08.2019,2040,anchored,boarded,Salviceroy,tug,Marshall Islands,2658,9351830,01:06.15N,103:53.06E ,Batam Anchorage,Indonesia,Five robbers armed with knives boarded an anchored tug. Crew alerted and alarm raised. All crew mustered in a safe location and called the local authorities who responded and boarded the tug for investigations. Deck and engine room spares were reported stolen. All crew safe. ,South East Asia,actual
+22,22.08.2019,1830,anchored,boarded,Tomini Dynasty,bulk carrier,Marshall Islands,36308,9721360,03:54.40N ,098:47.25E ,Belawan Anchorage,Indonesia,"Duty crew onboard an anchored ship noticed a small boat near the anchor chain. Crew told the boat to move away as they were about to heave up the anchor. As the duty crew was about to raise the alarm, two armed robbers who had already boarded the ship, held the duty crew at knife point and tied him up. When the ship was ready to heave up the anchor, the remaining crew proceeded to the forecastle. On seeing these crew members approaching, the robbers snatched the duty crew’s walkie-talkie and escaped through the hawse pipe after opening the security cover. Incident reported to Port Control. On berthing, Marine Police boarded the ship for investigation.",South East Asia,actual
+23,25.08.2019,2045,anchored,boarded,Eagle,tanker,Marshall Islands,160904,9233753,01:35N ,104:32E ,"Around 17nm ENE of Bandar Penawar, Johor",Malaysia,"Duty crew onboard an anchored tanker noticed armed persons on the forecastle and notified the duty officer. Alarm raised and forward whistle sounded. Master advised all crew to retreat into the accommodation. Hearing the alarm, the armed persons escaped with a life raft and other ship's properties. ",South East Asia,actual
+24,27.08.2019,1225,berthed,boarded,NA,bulk carrier,Singapore,24785,NA,NA,NA,"Sandakan Port, Sabah",Malaysia,"During routine rounds, duty AB onboard the berthed ship noticed two robbers on the forecastle and raised the alarm. Seeing the alerted crew, the robbers jumped overboard and escaped in a boat which was alongside the ship with another robber. Upon investigation, ship’s properties reported stolen. Incident reported to local police. ",South East Asia,actual
+25,08.09.2019,908,anchored,boarded,British Contributor,LNG tanker,Isle of Man,115366,9766554,01:34.6N ,104:30.9E,"Around 15nm East of Bandar Penawar, Johor",Malaysia,"Three robbers boarded an anchored tanker via the anchor cable. They stole the forward life raft, ship’s properties, stores and escaped. The theft was noticed through the CCTV recording. ",South East Asia,actual
+26,18.09.2019,1900,berthed,boarded,NA,product tanker,Marshall Islands,11561,NA,NA,NA,"Dermaga Kencana Terminal, Balikpapan",Indonesia,Two robbers boarded the berthed tanker. Alert crew noticed the robbers and raised the alarm resulting in the robbers escaping without stealing anything. Incident reported to local authorities. ,South East Asia,actual
+27,23.09.2019,358,steaming,boarded,NA,fishing vessel,Malaysia,NA,NA,05:34.05N ,119:07.05E ,"Around 6.3nm North of Pulau Tambisan, Sabah",Malaysia,"Seven armed persons in two pump boats, wearing camouflage uniforms and masks, approached two fishing vessels. The persons boarded the fishing vessels, held the crews at gunpoint and took their personal effects, documentation and phone. Before leaving the armed persons kidnapped three crew members from one fishing vessel and headed to Tawi-Tawi Islands. On 22 Dec 2019, two kidnapped crew were rescued during the Philippines Military Operations. ",South East Asia,actual
+28,25.09.2019,2015,anchored,boarded,Front Leopard,tanker,Marshall Islands,62700,9703320,01:34N ,104:31E ,"Around 16nm East of Bandar Penawar, Johor",Malaysia,"Unnoticed, robbers boarded an anchored tanker via anchor chain and stole ship’s equipment from the forward store and escaped. Incident reported to regional authorities. ",South East Asia,actual
+29,25.09.2019,2206,anchored,boarded,TSL Rosemary,general cargo,Hong Kong,21483,9527192,01:36N ,104:32E ,"Around 16nm East of Bandar Penawar, Johor",Malaysia,"A Bosun onboard an anchored ship sighted three robbers on the forecastle and immediately informed the OOW, who raised the alarm. The crew mustered and proceeded towards the forward. Seeing the alerted crew, the robbers escaped with a mooring rope.",South East Asia,actual
+30,30.09.2019,1515,steaming,boarded,Transpacific,bulk carrier,Malta,43721,9597226,01:02.7N ,103:39.0E ,Singapore Straits,Singapore,"Deck crew on routine rounds onboard the ship underway in the Singapore TSS spotted five armed robbers on the aft deck. Alarm raised, SSAS activated and PA announcement made resulting in the robbers escaping without stealing anything. Incident reported to Singapore VTIS. After almost one hour and in Singapore waters, a Singapore police coast guard boat intercepted and escorted the ship to Singapore, where they boarded and searched the ship to ensure that the robbers had left. ",South East Asia,actual
+31,05.10.2019,1800,anchored,boarded,Clipper Eos,LPG tanker,Norway,18898,9827205,01:18.14N ,104:07.03E ,Johor Anchorage,Malaysia,"Unnoticed, robbers boarded an anchored tanker, stole ship’s properties and escaped. Duty crew on routine rounds noticed the theft and notified the OOW. ",South East Asia,actual
+32,08.10.2019,1920,anchored,boarded,NA,product tanker,Saudi Arabia,29575,NA,01:43N ,101:26E ,Dumai Inner Anchorage,Indonesia,"Duty officer onboard an anchored tanker noticed four robbers on deck and informed the Master. Alarm raised, crew mustered, and PA announcement made. The robbers escaped without stealing anything. Incident reported to local agent. ",South East Asia,actual
+33,08.10.2019,1507,steaming,boarded,Hirado,tanker,Greece,159806,9377420,01:05.1N ,103:42.3E ,Singapore Straits,Singapore,"Five robbers armed with knives and crowbars boarded the tanker underway and entered the engine room. Duty Engine crew noticed the robbers and raised the alarm, resulting in the robbers escaping without stealing anything. Incident reported to Singapore VTIS. ",South East Asia,actual
+34,19.10.2019,1700,steaming,boarded,Nord Steel,bulk carrier,Singapore,90086,9406518,01:03.45N ,103:38.70E ,Singapore Straits,Singapore,Duty oiler on routine rounds onboard the ship underway was taken hostage by five robbers armed with a gun and knives. The robbers threatened the oiler and tied his hands. They then stole ship’s spares and escaped. The oiler reported the incident to the OOW who raised the alarm and notified Singapore VTIS. ,South East Asia,actual
+35,21.10.2019,1747,anchored,boarded,CSK Enterprise,bulk carrier,Singapore,107449,9816555,06:01.3S ,105:53.8E ,Cigading Anchorage,Indonesia,"Alert crew onboard an anchored ship noticed four unauthorized persons near the entrance of the engine room. Alarm raised and crew mustered. Hearing the alerted crew, the persons escaped without stealing anything. ",South East Asia,actual
+36,24.10.2019,2115,steaming,boarded,NA,product tanker,Saudi Arabia,29168,NA,01:03N ,103:38E ,Singapore Straits,Singapore,"Alert crew onboard the tanker underway noticed four robbers on deck and raised the alarm. Hearing the alerted crew, the robbers escaped without stealing anything. Incident reported to Singapore VTIS. ",South East Asia,actual
+37,27.11.2019,2045,steaming,boarded,Kmax Evdokia,bulk carrier,Marshall Islands,41662,9341873,01:17.79N ,104:20.47E ,Singapore Straits,Singapore,"While underway, a duty engine crew onboard the ship was confronted by robbers armed with knives. The robbers threatened the crew with a knife and attempted to take him hostage. The crew managed to escape and raised the alarm resulting in the crew mustering. Seeing the alerted crew, the robbers escaped without stealing anything. Master reported the incident to VTIS. A patrol boat was dispatched to the location. Ship and crew safe.",South East Asia,actual
+38,28.11.2019,1520,steaming,boarded,China Pioneer,bulk carrier,Hong Kong,106884,9588768,01:16.2N,104:13.4E ,Singapore Straits,Singapore,"Chief Engineer onboard the ship underway noticed four robbers armed with knives in the engine room and informed the Master. Alarm raised, deck lights switched on and crew mustered. Seeing the alerted crew, the robbers escaped. A search was carried out. Footprints were noticed on the quarter deck. Nothing reported stolen. ",South East Asia,actual
+39,30.11.2019,2140,anchored,boarded,CMA CGM New Jersey,container,Malta,54309,9351141,14:32.77N ,120:52.65E ,Manila Anchorage,Philippines,"Robbers boarded an anchored ship awaiting berthing instructions, via the anchor cable and hawse pipe. They broke into the bosun’s store, stole ship’s properties and escaped. The theft was noticed during routine rounds. Incident reported to Port Authorities. ",South East Asia,actual
+40,10.12.2019,2025,anchored,boarded,Berge Asahidake,bulk carrier,Isle of Man,21530,9713181,05:30.3S,105:17.5E,Panjang Anchorage,Indonesia,"Three robbers armed with long knives boarded an anchored ship. They broke into the engine room workshop, stole auxiliary engine spares and escaped. Authorities notified. ",South East Asia,actual
+41,20.12.2019,1530,steaming,boarded,Akij Globe,bulk carrier,Bangladesh,30000,9293105,01:15N ,104:01E ,Singapore Straits,Singapore,"Five robbers armed with long knives boarded the ship underway. They entered the engine room, took hostage two duty crew and threatened them with knives. The robbers stole engine spares and escaped. Alarm raised, crew mustered, and incident reported to Singapore VTIS. A coast guard boat responded and escorted the ship to an anchorage where they boarded the ship for inspection. All crew safe. ",South East Asia,actual
+42,22.12.2019,1600,steaming,boarded,Bamzi,tanker,Panama,58088,9256468,01:15.26N ,104:05.00E ,Singapore Straits,Singapore,"While underway, the tanker was boarded by five robbers armed with knives. Two duty crew on routine rounds were confronted by the robbers, who threatened them and tied them up. Alarm raised and crew mustered. Hearing the alarm, the robbers escaped without stealing anything. Incident reported to Singapore VTIS. ",South East Asia,actual
+43,22.12.2019,1720,steaming,boarded,Trust Star,bulk carrier,Panama,21699,9610236,01:15.57N ,104:07.01E ,Singapore Straits,Singapore,"Five persons armed with knives and guns boarded the ship underway. They entered the engine room, took hostage two duty crew, threatened them and tied them up. The robbers stole engine spares and escaped. Incident reported to Singapore VTIS. A coast guard boat responded and escorted the ship. ",South East Asia,actual
+44,24.12.2019,1620,steaming,boarded,Stena Immortal,product tanker,United Kingdom,29666,9685475,01:09N ,103:29E ,Singapore Straits,Singapore,"Five robbers boarded the tanker underway. Second Engineer noticed and shouted at the robbers. Alarm raised, crew mustered, and incident reported to Singapore VTS. Seeing the crew alertness, the robbers escaped without stealing anything. The tanker anchored at Sudong Special anchorage where Singapore coast guard personnel boarded the tanker for inspection. All crew safe. ",South East Asia,actual
+1,11.01.2019,2030,anchored,boarded,NA,bulk carrier,Hong Kong,94866,NA,38:53.60N ,118:36.65E ,Caofeidian Anchorage,China,"Two robbers, armed with a steel bar, boarded an anchored ship. Duty crew noticed the robbers and raised the alarm. Hearing the alerted crew, the robbers escaped without stealing anything. Incident reported to port authorities. ",East Asia,actual
+2,29.01.2019,1655,anchored,boarded,FMG Northern Spirit,ore carrier,Hong Kong,134693,9753595,38:52.8N ,119:11.8E ,Jingtang Anchorage,China,"Duty crew onboard an anchored ship noticed an unlit barge alongside and raised the alarm. Two robbers wearing masks were seen lowering hoses and escaping from the quarter deck. On searching the ship, oil stains were noticed near the MDO tank sounding pipe. All tanks were sounded. Nothing reported stolen. Tangshan VTS informed. ",East Asia,actual
+3,10.02.2019,1840,anchored,boarded,RTM Dampier,bulk carrier,Singapore,106796,9591325,38:52.50N ,118:42.60E,Caofeidian Anchorage,China,"Duty officer onboard an anchored ship noticed from the bridge wing a hose connected from an opened DO tank manhole to a small unlit barge alongside the ship. Alarm raised, and duty AB instructed to investigate. Hearing the alarm, the duty officer noticed a robber lowering the hose and escaping in the barge. On sounding the tank, it was reported that DO had been stolen. Incident reported to VTS Caofeidian. ",East Asia,actual
+4,25.07.2019,1240,berthed,boarded,Molengracht,general cargo,Netherlands,9524,9571533,10:44.45N ,106:44.71E,"Lotus Port, Ho Chi Minh City",Vietnam,"Third officer on routine rounds onboard the berthed ship noticed an unauthorised person on deck throwing items over the shipside. On checking, the duty officer saw two boats collecting the items. Alarm raised. Seeing the approaching officer, the unauthorised person escaped. Upon checking it was found that the padlock of the forward store was broken, and ship’s properties were stolen. Local authorities notified. ",East Asia,actual
+5,11.08.2019,1930,berthed,boarded,Kota Waris,container,Singapore,16772,9157404,10:44.3N ,106:46.2E,Phuoc Long Mooring Buoy No. 03,Vietnam,"Duty AB on routine rounds onboard the berthed ship noticed two robbers armed with knives trying to break into the steering gear room. Duty Officer notified. Alarm raised and crew mustered. Seeing the alerted crew, the robbers escaped. Nothing reported stolen. ",East Asia,actual
+1,03.02.2019,1630,berthed,boarded,Maersk Erik,product tanker,Singapore,25382,9316608,23:02.02N ,070:13.39E ,"Oil Jetty No.4, Kandla Port",India,"The chief officer on routine rounds onboard the berthed tanker noticed a boat under the forecastle and notified the other deck crew. Seeing the alerted crew, the boat moved away. On inspection, it was noticed that a store room had been broken into, but nothing reported stolen. Port Authorities notified.",Indian Sub-Continent,actual
+2,13.04.2019,1006,anchored,boarded,Sonangol Namibe,tanker,Bahamas,83469,9325049,17:37.1N ,083:19.2E ,Visakhapatnam SPM Anchorage,India,"Five boats with 11 persons approached the tanker during anchoring operations. Upon anchoring the boats came alongside, threw a hook attached to a rope onto the ship’s rails and commenced boarding the tanker. Alarm raised, ship’s horn sounded, and crew mustered. Port Authorities notified. The unauthorised persons remained on deck as the crew prevented them from entering the accommodation. They did not confront the crew but refused to leave the tanker. Finally, on seeing the approaching pilot boat, the unauthorised persons disembarked. ",Indian Sub-Continent,actual
+3,23.09.2019,1925,anchored,boarded,Trammo Cornell,LPG tanker,Singapore,25600,9543081,17:03.8N ,082:26.2E ,Kakinada Anchorage,India,Four robbers boarded an anchored tanker using a hook attached to a rope. Alert crew noticed the robbers and raised the alarm resulting in the robbers escaping in their boat with ship’s stores. Incident reported to port authorities. ,Indian Sub-Continent,actual
+1,03.01.2019,328,anchored,boarded,CMA CGM Kingston,container,Portugal,16162,9376907,10:19.1N ,075:31.3W ,Mamonal Anchorage ,Colombia,"Deck watchmen onboard an anchored ship noticed three robbers near the forecastle and informed the duty officer. Alarm raised, crew mustered inside the accommodation and all doors were locked from inside. Master reported the incident to the Coast Guard and requested assistance. A Coast Guard boat arrived and searched the waters around the ship. Ship’s properties were reported missing. ",Americas,actual
+2,17.01.2019,340,anchored,boarded,Gerd Knutsen,tanker,Isle of Man,79592,9041057,10:11.7N ,064:47.3W ,Puerto Jose Anchorage,Venezuela,Robbers boarded an anchored tanker unnoticed. They stole ship’s stores and escaped. The theft was noticed by the duty crew during routine rounds. Port control informed. ,Americas,actual
+3,10.03.2019,430,anchored,boarded,Pilion,bulk carrier,Barbados,32210,9425825,00:03.5N ,050:57.8W ,Macapa Anchorage ,Brazil,"Two robbers armed with knives boarded an anchored ship using a rope attached with a hook. Duty AB on routine rounds spotted the robbers and immediately informed the OOW, who raised the alarm. PA announcement made, and all crews mustered. Seeing the alerted crews, the robbers escaped without stealing anything. Incident reported to Port Authorities. ",Americas,actual
+4,21.03.2019,435,anchored,boarded,Cabo Fuji,tanker,Panama,42791,9730878,10:11.2N ,064:47.4W,Jose Terminal Anchorage,Venezuela,"Three robbers armed with knives boarded an anchored tanker. Deck watch on routine rounds spotted the robbers and notified the OOW just before the robbers threatened him with a knife and stole his radio. Alarm raised, and crew mustered resulting in the robbers escaping with their accomplices in a waiting boat. Incident reported to Port Authorities.",Americas,actual
+5,21.03.2019,900,anchored,boarded,Navigator Virgo,LPG tanker,Liberia,18311,9404819,18:24.8N ,069:19.1W ,San Pedro de Macoris Anchorage,Dominican Republic,"Robbers boarded an anchored tanker unnoticed, stole ship’s properties and escaped. Incident was noticed during routine rounds. ",Americas,actual
+6,28.03.2019,410,anchored,boarded,Diamondway,tanker,Liberia,81545,9742895,10:11.40N ,064:52.17W ,Jose Terminal Anchorage,Venezuela,"Five robbers armed with knives and a pipe wrench boarded an anchored tanker. They tied up the aft watch keeper and broke into the paint store. Alarm raised, and crew mustered. Hearing the alerted crew, the robbers escaped with stolen ship’s stores. ",Americas,actual
+7,14.04.2019,645,anchored,boarded,Port Imabari,bulk carrier,Marshall Islands,35825,9846263,12:01.9S ,077:11.2W ,Callao Anchorage,Peru,"Five robbers boarded an anchored ship using a rope attached with a hook. Duty AB on routine rounds was attacked, threatened and beaten. Alarm raised and crew mustered. Seeing the alerted crew, the robbers escaped with the duty AB’s personal belongings. Incident reported to local Authorities who boarded the ship for investigation. ",Americas,actual
+8,25.04.2019,340,anchored,boarded,Taurus,bulk carrier,Isle of Man,93196,9403530,12:17.9N ,072:01.2W ,Puerto Bolivar Anchorage,Colombia,"Two robbers in a small boat approached and boarded an anchored ship. Alert crew noticed the robbers and raised the alarm. Crew mustered. Hearing the alarm and seeing the crew alertness, the robbers escaped empty handed. Coast Guard informed. ",Americas,actual
+9,26.04.2019 ,200,anchored,boarded,NA,tanker,Singapore,64459,NA,10:12.3N ,064:45.9W ,Puerto Jose Anchorage,Venezuela,"Six persons in a small boat with an outboard motor approached and boarded an anchored tanker. Duty crew on routine rounds noticed the robbers and raised the alarm. Hearing the alarm and seeing the crew alertness, the robbers escaped in their boat. A search was carried out. Nothing reported stolen. Incident reported to the Coast Guard through the local agents. ",Americas,actual
+10,26.04.2019 ,330,anchored,boarded,Seletar Spirit,tanker,Bahamas,60139,9484077,10:17.0N ,064:42.2W ,Puerto La Cruz Anchorage,Venezuela,"Duty Officer noticed on the CCTV one unauthorised person on the forecastle and raised the alarm. Hearing the alerted crew, the robber escaped. A security search of the tanker showed ship’s properties stolen from the forecastle store. ",Americas,actual
+11,26.04.2019 ,700,anchored,boarded,CS Jola,bulk carrier,Marshall Islands,23269,9791896,12:01S ,077:13W ,Callao Anchorage,Peru,"Unnoticed, robbers boarded an anchored ship and escaped with ship’s stores. The theft was noticed by the duty crew during routine rounds. Port Control informed. ",Americas,actual
+12,02.04.2019,730,anchored,boarded,Aqua Lobo,pleasure craft,Cayman Island,NA,NA,09:16.40N ,078:07.45W ,Around 1.9nm ENE of San Ignacio De Tupile,Panama,"The IMB Piracy Reporting Center (PRC) received a distress call from an anchored pleasure boat with a family of four onboard. The distress call indicated that the boat had been  boarded by unknown persons and one family member had been shot and killed and another injured, while two other family members were unharmed. The IMB PRC immediately informed the Panamanian Authorities. A marine police boat was dispatched to the location to render assistance to the pleasure boat. The IMB PRC continued to liaise with the authorities and the victim until the marine police boat arrived at location and boarded the pleasure boat. The injured person together with two other family members were taken ashore for medical treatment.",Americas,actual
+13,15.05.2019,700,berthed,boarded,NA,product tanker,Panama,29447,NA,NA,NA,"Martissant Terminal, Port Au Prince",Haiti,Two armed robbers boarded the berthed tanker using a hook attached to a rope. Duty crew noticed the robbers and raised the alarm resulting in the robbers escaping with ship’s stores. Incident reported to PFSO. ,Americas,actual
+14,18.05.2019 ,555,anchored,boarded,Methane Mickie,harper,Bermuda,109004,9520376,11:59.8S ,077:11.9W ,Callao Anchorage,Peru,"Around four to five robbers wearing face masks boarded an anchored tanker via the hawse pipe. They took hostage the duty crew on routine rounds. Alarm raised, ship’s whistle sounded, and crew mustered. Hearing the alarm, the robbers took the duty crew’s radio, pushed him and escaped in their boat. Incident was reported to Port Control and a patrol boat was dispatched to the anchorage area. ",Americas,actual
+15,31.05.2019 ,525,anchored,boarded,CS Sonoma,bulk carrier,Bahamas,32987,9569944,00:03.27N ,050:58.93W,Macapa Anchorage ,Brazil,"Six robbers armed with knives boarded an anchored ship through the anchor chain. Duty AB on routine rounds spotted the robbers and immediately informed the Master, who raised the alarm. PA announcement made, whistle sounded, and all crew mustered. A search was carried out. Ship’s crew found the paint store room's lock broken and ship's stores reported stolen. ",Americas,actual
+16,04.08.2019,1200,anchored,boarded,Tog Mor,maintenance pontoon,Malta,7235,8759152,18:48.8N ,091:47.8W ,Ciudad Del Carmen Anchorage,Mexico,"Crew onboard the maintenance pontoon reported ship’s stores and properties were stolen. A machete was found near the store room. Master later received information from another vessel in the vicinity, that robbers had attempted to board their vessel also. Incident reported to the Mexican Coast Guard/Navy. Three patrol boats were dispatched to investigate. ",Americas,actual
+17,22.09.2019,100,steaming,boarded,EF Eldra,container,Marshall Islands,16137,9470882,02:32.44S ,080:05.72W ,Around 4.5nm WNW of Isla Escalante,Ecuador,"Two duty crew onboard the ship under pilotage failed to respond to routine radio checks from the OOW. Investigations revealed that both the crew had been assaulted and tied up. They reported that seven persons armed with a shotgun had boarded, taken them hostage and stolen their personal effects and radios before escaping. The ship proceeded to Posorja roads where the coast guard and anti-narcotics police team boarded and searched the ship. Once clearance was given, the ship resumed her passage. ",Americas,actual
+18,30.09.2019,700,anchored,boarded,Dorthe Oldendorff,bulk carrier,Liberia,24726,9598921,12:01.5S ,077:11.9W ,Callao Anchorage,Peru,"Four robbers boarded an anchored ship. They took hostage the duty AB and tied his hands. When the duty officer did not receive a response from the duty AB, he ordered other crew members to investigate. Upon arriving at the forecastle, the crew members saw the duty AB was tied and raised the alarm. Hearing the alarm and seeing the alerted crew, the robbers escaped. The duty AB was unharmed. Ship's properties were reported stolen. Incident reported to the port authority and local agent. ",Americas,actual
+19,12.10.2019,10,anchored,boarded,Anshun,bulk carrier,Panama,24332,9851347,18:33.9N ,072:23.2W ,Port Au Prince Anchorage,Haiti,"During routine rounds, duty AB onboard an anchored ship was taken hostage by robbers armed with guns and long knives. Alarm raised and crew mustered. Seeing the alerted crew, the robbers escaped with stolen ship’s properties. Incident reported to Pilot Station. ",Americas,actual
+20,12.10.2019,730,anchored,boarded,NA,product tanker,Denmark,30024,NA,11:59.6S ,077:11.1W ,Callao Anchorage,Peru,"Duty watchmen onboard an anchored tanker noticed three unauthorised persons on the forecastle deck and raised the alarm. The OOW, sounded the forward horn, raised the alarm, made an announcement on the PA and crew mustered. Seeing the alerted crew, the persons escaped in their boat. Further investigations indicated that the perpetrators opened the bosun store skylight but were unable to steal anything. ",Americas,actual
+21,21.11.2019,850,anchored,boarded,Ocean Mercury,bulk carrier,Panama,22662,9616735,12:01.70S ,077:12.62W ,Callao Anchorage,Peru,"Crew on routine rounds onboard an anchored ship noticed three robbers armed with long knives at forecastle deck and raised the alarm. Crew mustered. A small boat was seen departing the ship. Upon checking, the bosun store and paint store were reported broken into and ship’s stores stolen. ",Americas,actual
+22,23.11.2019,1020,anchored,boarded,Galveston Highway,vehicle carrier,Panama,59525,9675573,12:01.8S ,077:11.7W ,Callao Anchorage,Peru,Duty crew onboard an anchored ship noticed the forecastle store entrance door and forward booby hatch cover opened. On investigating three mooring ropes were reported missing. Incident reported to Callao Port Authority. ,Americas,actual
+23,03.12.2019,715,anchored,boarded,Cano,bulk carrier,Malta,24086,9662332,12:01.4S ,077:13.3W ,Callao Anchorage,Peru,"Two watchkeepers onboard an anchored ship on routine rounds noticed movement on the forecastle deck and notified the duty officer. Verifying the movement from the bridge, the duty officer reported one robber armed with a long knife and another throwing a mooring rope overboard. Alarm raised, ship’s whistle sounded, and crew made their way forward. By the time the crew reached the forecastle deck they saw one boat moving away with the stolen mooring rope. Incident reported to VTS. ",Americas,actual
+24,07.12.2019,610,anchored,boarded,Lunita,bulk carrier,Norway,32402,9685621,12:01.42S ,077:13.75W ,Callao Anchorage,Peru,"Three robbers boarded an anchored ship via the anchor chain and hawse pipe. They tied up the duty OS, took his radio, wristwatch and flashlight and entered the forecastle store. The duty OS managed to escape and raised the alarm resulting in the crew mustering. Hearing the alarm, the robbers escaped in a waiting motorboat. Upon investigation, ship’s properties were reported stolen. Incident reported to TRAMAR Port Control.",Americas,actual
+1,02.01.2019,1,steaming,boarded,MSC Mandy,container,Panama,37071,8918966,05:28N,002:21E,"Around 55nm South
+of Cotonou,",Benin,"Armed pirates attack and boarded the ship
+underway. Six crew members reported
+kidnapped. The remaining crew sailed the
+ship to a safe port. Owners confirmed all
+kidnapped crew released safely on
+01.02.2019.",Africa,actual
+2,03.01.2019,2325,anchored,boarded,FSL Singapore,product tanker,Singapore,28068,9311724,06:17.8N,06:17.8N,"Lagos Security
+Anchorage Area",Nigeria,"Two unauthorised persons boarded the
+tanker during STS operations. The security
+guard noticed the robber and raised the
+alarm resulting in the persons escaping.
+Nothing was stolen.",Africa,actual
+3,07.01.2019,320,anchored,boarded,Two Million Ways,tanker,Cyprus,40865,9334571,06:16.3N,003:20.1E,"Lagos STS
+Anchorage",Nigeria,"Two robbers with plastic hoses boarded an
+anchored tanker during STS operations.
+They connected the hoses to the ullage
+ports of the forward cargo tanks and
+attempted to steal cargo. Duty crew noticed
+the robbers and raised the alarm resulting
+in the robbers escaping. The incident was
+immediately reported to the Nigerian Navy
+patrol boat who came to the location and
+carried out a check on the surrounding
+waters. Nothing reported stolen.",Africa,actual
+4,19.01.2019,2240,anchored,boarded,Nord Valorous,product tanker,Liberia,29557,9827059,05:12.4N,004:02.8W,Abidjan Anchorage,Ivory Coast,"Two robbers armed with long knives
+boarded an anchored tanker. Duty OS on
+routine rounds noticed a ladder hooked to
+the ship’s rail and two robbers near the
+poop deck winch. OOW notified and alarm
+raised. Master directed the searchlight
+towards the poop deck resulting in the
+robbers escaping with stolen ship’s stores.",Africa,actual
+5,03.02.2019,530,steaming,boarded,Name Withheld,landing craft,Marshall Islands,1409,NA,02:32.6N,004:47.3E,"Around 136nm SW
+of Brass",Nigeria,"Five armed pirates attacked and boarded
+the ship underway, kidnapped three crew
+members and escaped. Incident reported to
+the Nigerian Navy who dispatched a naval
+boat to assist the vessel. Remaining crew
+sailed the vessel under naval escort to a safe
+anchorage. On 01.03.2019, Owners
+confirmed the kidnapped crew were
+released safely.",Africa,actual
+6,09.02.2019,340,berthed,boarded,Histria Ivory,product tanker,Malta,25804,9356244,06:21.1N,010:47.8W,Port of Monrovia,Liberia,"Duty crew on routine rounds onboard the
+berthed tanker noticed a robber armed with
+a knife. Alarm sounded, resulting in the
+robber escaping. On searching the tanker,
+ship’s stores were reported stolen. Incident
+reported to local agent and port control.",Africa,actual
+7,23.02.2019,400,anchored,boarded,Anna,general cargo,Antigua and Barbuda,11473,9501887,04:54.6N,001:40.2W,"Takoradi
+Anchorage",Ghana,"Unnoticed, robbers boarded an anchored
+ship. They stole ship’s stores and escaped.
+Incident reported to local Authorities.",Africa,actual
+8,27.02.2019,500,anchored,boarded,Maersk Jamnagar,tanker,Singapore,56326,9524982,04:56.4N,001:34.3W,"Aboadze
+Anchorage",Ghana,"Unnoticed, robbers boarded an anchored
+tanker. They stole ship’s stores and
+escaped. Incident reported to local
+Authorities.",Africa,actual
+9,02.03.2019,1233,steaming,boarded,Cap Theodora,tanker,Greece,81324,9380740,04:38.0N,003:14.1E,"Around 105nm
+South of Lagos",Nigeria,"Armed pirates in a speed boat approached
+and boarded the tanker underway. Alarm
+raised, and all crew mustered in the citadel.
+Upon receiving information on the
+incident, the IMB PRC immediately
+informed the Nigerian Authorities. A naval
+patrol boat was dispatched to assist the
+tanker. The IMB PRC continued to liaise
+with the Authorities and the Owners until
+the naval team boarded the tanker and
+confirmed all crew safe. The tanker later
+resumed her intended passage to the next
+port.",Africa,actual
+10,03.03.2019,1940,steaming,boarded,Histria Ivory,product tanker,Malta,25804,9356244,05:52N,001:24E,"Around 17nm SSE
+of Lome",Togo,"Armed pirates attack and boarded the
+tanker underway. Alarm raised, and crews
+mustered in the citadel. On taking the
+headcount, four crews were identified as
+missing. Upon receiving a MAYDAY
+message from the Master, the IMB PRC
+immediately informed the Togo
+Authorities. A naval patrol boat was
+dispatched to assist the tanker. The IMB
+PRC continued to liaise with the
+Authorities and the Owners until the naval
+patrol boat arrived at the location of the
+tanker and the crews emerged from the
+citadel. On searching the tanker one crew
+was found hiding in a compartment. The
+tanker was escorted to Lome anchorage for
+further investigations. Three crews remain
+missing. On 11 Apr 2019, the Owners
+confirmed that the three kidnapped crew
+members were released safely.",Africa,actual
+11,09.03.2019,1115,steaming,boarded,E. Francis,offshore support,Nigeria,2645,7408897,03:57.2N,006:39.0E,"Around 32nm SE of
+Brass",Nigeria,"Pirates armed with machine guns in two
+speed boats approached an offshore
+support vessel underway. The Captain
+immediately notified the naval escort
+security boat which manoeuvred to engage
+the attackers. One speed boat closed in
+from port side of the vessel and crossed the
+bow, while the other speed boat exchanged
+fire with the security boat. Alarm raised,
+crew proceeded to the engine room and all
+power was shut down. The pirates boarded
+the vessel with the aid of an elongated
+ladder. They broke into the
+accommodation, vandalized the cabins and
+took crew belongings and vessel’s
+properties. The pirates then proceeded to the engine room, kidnapped five men and
+escaped. The remaining crews sailed the
+vessel under escort to a safe anchorage.
+One Nigerian Navy armed guard reported
+killed in the exchange of fire between the
+naval security boat and the pirates. On 12
+Dec 2019, the Owners confirmed that the
+five kidnapped crew members were
+released safely on June 2019.",Africa,actual
+12,24.03.2019,2235,anchored,boarded,Nord Steady,product tanker,Singapore,29983,9629706,06:15.2N,003:12.3E,"Lagos Secure
+Anchorage Area",Nigeria,"Two robbers managed to board an
+anchored tanker and started stealing the oil
+cargo using a hose pipe. Duty watch keeper
+noticed the hose and immediately informed
+Master. Incident reported to a Navy patrol
+boat in the vicinity. Seeing the alerted
+crew, the robbers escaped. All crew and the
+tanker are safe. It was reported that the
+Navy patrol boat managed to intercept the
+boat and apprehend the robbers.",Africa,actual
+13,29.03.2019,236,anchored,boarded,Anuket Pearl,product tanker,Malta,5581,9395886,04:52.86N,001:41.42W,"Takoradi
+Anchorage",Ghana,"OOW onboard an anchored tanker noticed
+the paint room door was opened and
+spotted the robbers in the forecastle. The
+OOW immediately directed search lights
+towards the robbers and ship’s horn
+sounded. Seeing the alerted crew, the
+robbers escaped with stolen ship’s stores.
+Takoradi Port Control was informed.
+Takoradi Marine Police personnel boarded
+the tanker for investigation.",Africa,actual
+14,30.03.2019,310,anchored,boarded,Nord Steady,product tanker,Singapore,29983,9629706,06:18.9N,003:17.4E,"Lagos STS
+Anchorage",Nigeria,"Duty watchkeeper onboard an anchored
+tanker noticed some robbers near a cargo
+tank and near the ship’s rails. Alarm raised.
+Seeing the alerted crew, the robbers
+escaped without stealing anything.
+Nigerian Navy patrol boat notified and a
+search in the waters around the tanker was
+carried out.",Africa,actual
+15,30.03.2019,2130,anchored,boarded,Contship Oak,container,Liberia,9957,9373917,03:53N,009:30E,"Around 15nm SW
+of Douala",Cameroon,"Armed persons boarded an anchored ship.
+They kidnapped four crew members and
+escaped. The remaining crew sailed the
+ship to Douala port. The owners confirmed
+that the four kidnapped crew were released
+on 06 May 2019 and repatriated to their
+respective countries.",Africa,actual
+16,01.04.2019,600,berthed,boarded,Silver Lake,bulk carrier,Hong Kong,20987,93777963,NA,NA,"Berth T36, Casablanca
+Port",Morocco,"Duty officer onboard the berthed ship,
+heard noises from the boat deck. As he
+approached the area, he noticed the life raft
+cover was opened and two robbers stealing
+the equipment. Seeing the duty officer, the
+robbers jumped overboard and escaped.
+Incident reported to the Port Authority.
+Subsequently, the Harbour Master, Port
+Police and PSC Inspector boarded the ship
+to investigate.",Africa,actual
+17,05.04.2019,2100,steaming,hijacked,Maria Soltin,chemical tanker,Nigeria,805,7203699,05:49.10N,003:49.00E,Lagos Offshore,Nigeria,"Nine pirates armed with automatic weapons and a RPG boarded the tanker undergoing sea trials. Duty officer raised the alarm and crew took shelter. The pirates took hostage the duty officer and instructed all crew members to come out of hiding. They damaged the navigation and
+all communication equipment, stole crew
+and ship's property, locked all the crew in
+one cabin and took the Master as hostage.
+On 9 April 2019, a Spanish Navy Warship
+tried to establish communication with the
+tanker. On receiving no response, the
+warship approached the tanker, resulting in
+the pirates escaping. The Master told the
+naval boarding team that they had been
+held hostage for four days. After
+investigations, the naval boarding team
+disembarked. While continuing on her
+voyage, the main engines had to be shut
+down due to overheating. The C/E noticed
+ingress of water into the engine room,
+which was later fixed. Without any
+communication equipment that is still
+working, the tanker was adrift for 12 days
+before being able to hail a fishing boat for
+assistance. The Master then established
+contact with the Owners who then arranged
+for the tanker to be towed to Ghana. The
+tanker arrived at Ghana anchorage on 22
+April 2019.",Africa,actual
+18,15.04.2019,2020,anchored,boarded,San Padre Pio,product tanker,Switzerland,5422,9610339,04:28.1N,007:10.1E,"Bonny River Inner
+Anchorage",Nigeria,"Four persons in a speed boat armed with
+automatic weapons approached an
+anchored tanker. Two persons managed to
+board the tanker and opened fire towards
+the accommodation. The onboard Nigerian
+naval guards returned fire resulting in the
+persons retreating into their boat and
+escaping. Alarm raised, PA announcement
+made, and crew mustered in the citadel.
+Bonny Signal Station and Nigerian Navy
+notified. One guard was injured during the
+shooting and was given first aid by the
+crew. Two security boats responded and
+approached the tanker. The injured guard
+was transferred to a security boat and taken
+ashore for medical assistance. Remaining
+crew safe.",Africa,actual
+19,19.04.2019,1330,anchored,boarded,Apecus,product tanker,Palau,2055,7333810,NA,NA,"Bonny Outer
+Anchorage",Nigeria,"An anchored tanker was boarded by
+unauthorised persons who kidnapped six
+crew and escaped. Remaining crew
+reported safe. Nigerian Navy notified. On
+27 Jun 2019, the six kidnapped crew
+members were released safely.",Africa,actual
+20,24.05.2019,215,anchored,boarded,Ocean Gladiator,product tanker,Marshall Islands,25382,9241827,06:20.3N,003:20.5E,Lagos Anchorage,NIgeria,"Three robbers in a small craft approached
+and boarded an anchored tanker. Duty AB
+on routine rounds noticed the robbers near
+the cargo tank and notified the OOW.
+Alarm raised, PA announcement made, and
+crew mustered. Hearing the alarm and
+seeing the crew alertness, the robbers
+jumped overboard along with their hose
+and escaped in their boat. The incident was
+reported to a naval patrol boat. Nothing
+reported stolen.",Africa,actual
+21,28.04.2019,504,anchored,boarded,Siviu,product tanker,Marshall Islands,11290,9541289,05:50.5S,013:25.5E,"Ango-Ango Inner Anchorage, Port Matadi",Democratic Republic of Congo,"Two robbers armed with long knives
+boarded an anchored tanker and broke into
+the forecastle store. Duty watch keeper
+spotted the robbers and notified the OOW.
+Alarm raised, and crew mustered. Upon
+hearing the alarm, the robbers escaped with
+stolen ship’s stores.",Africa,actual
+22,03.05.2019,10,anchored,boarded,Marlin Amber,product tanker,Marshall Islands,29534,9697210,06:16.07N,003:13.11E,Lagos Secure Anchorage Area,Nigeria,"Duty crew onboard an anchored tanker
+noticed two robbers near the cargo tank
+with a hose. Alarm raised and PA
+announcement made. Seeing the alerted
+crew, the robbers escaped in their boat with
+their hose. A patrol boat was informed
+which came and searched the area. Nothing
+reported stolen.",Africa,actual
+23,05.05.2019,1200,steaming,hijacked,Charis,tug,Nigeria,298,9616254,03:04N,007:59E,Around 41nm SW of Luba,Equatorial Guinea,"Armed pirates hijacked the tug underway
+and took its crew hostage. The pirates used
+the tug to attack and board another ship.
+Incident reported to authorities and a
+Spanish and Equatorial Guinean Naval
+vessel responded resulting in both ships
+being released.",Africa,actual
+24,05.05.2019,1216,steaming,boarded,Blue Marlin,heavy load carrier,Malta,51821,9186338,03:03.2N,007:52.3E,Around 48nm SW of Luba,Equatorial Guinea,"Pirates onboard a previously hijacked tug
+approached and boarded the ship
+underway. Alarm sounded, and the crew
+retreated into the citadel. Regional
+Authorities notified. A nearby Spanish
+Naval vessel and the Equatorial Guinean
+Navy responded to the incident resulting in
+the pirates escaping and the crews released.
+The tug and the ship were escorted by the
+Equatorial Guinean Navy to a safe port for
+further investigations.",Africa,actual
+25,12.05.2019,100,anchored,hijacked,G Dona I,chemical tanker,Togo,992,8619285,NA,NA,Lome Anchorage,Togo,"Armed persons boarded and hijacked an
+anchored tanker with her crew. The Togo
+Navy received a call from the Owners that
+their tanker had been attacked. Togo Navy
+immediately responded by dispatching
+patrol boats to investigate. The tanker was
+intercepted 25nm from the anchorage area
+and forced to divert to Lome port. The crew
+were reported safe and the armed persons
+were captured and handed over to the
+relevant Authorities.",Africa,actual
+26,14.05.2019,142,anchored,boarded,Hanze Gendt,bulk carrier,Netherlands,24210,9605176,09:23.94N,013:41.26W,Conakry Anchorage,Guinea,"Four robbers armed with automatic rifles
+and knives boarded an anchored ship. They
+took the crew hostage, ransacked their
+cabins and stole ship’s and crew cash and
+properties before escaping. Master was
+injured during the incident. The incident
+was reported to Conakry Port Control and
+a patrol boat came for investigation.",Africa,actual
+27,26.05.2019,2000,anchored,boarded,D&K Yusef I. Al-Ghanim,product tanker,Marshall Islands,30952,9399624,14.32.56S,040:39.16E,Nacala Inner Anchorage,Mozambique,"Duty crew noticed the forward store broken
+into and reported same to the duty officer.
+Alarm raised. A search was carried out.
+Foot prints were noticed on the forecastle
+deck. Ship’s stores reported stolen.",Africa,actual
+28,13.07.2019,2250,steaming,hijacked,Name Withheld,general cargo,Turkey,8929,NA,02:58N,004:40E,Around 124nm SW of Brass,Nigeria,"Armed pirates in two speed boats boarded
+and hijacked the ship underway. The
+Owners were unable to contact the ship and
+immediately informed the Nigerian
+Authorities. The IMB PRC received the
+information from the Nigerian Authorities
+and made contact with the Owners. The
+IMB PRC notified all the Regional
+Authorities and the Ghana Navy Maritime
+Ops Centre dispatched a patrol boat to
+intercept the ship. On 15.07.2019, the
+Ghana Navy Patrol Boat located the ship
+and escorted her to a safe port for
+investigation. It was reported that 10 crew
+members were kidnapped from the ship.
+On 19.08.2019, the Owners confirmed that
+the 10 kidnapped crew members were
+released safely on 09.08.2019.",Africa,actual
+29,21.07.2019,240,anchored,boarded,Pomerenia Sky,container,Liberia,26435,9339583,08:28.1N,013:28.1W,Freetown Anchorage,Sierra Leone,"Five robbers armed with knives in a small
+wooden boat approached and boarded an
+anchored ship using a rope attached with a
+hook. The robbers took hostage the duty
+crew and stole his personal belongings and
+ship’s properties. Alert crew noticed the
+robbers and raised the alarm. All doors
+locked and crew mustered. Hearing the
+alarm and seeing the crew alertness, the
+robbers escaped. Port Control informed.
+During the incident the duty crew sustained
+injuries.",Africa,actual
+30,25.07.2019,442,berthed,boarded,Spring Rainbow,bulk carrier,Hong Kong,36467,9666041,06:25.76N,003:20.52E,Berth No.TC09,Nigeria,"Ten robbers boarded the berthed ship
+during cargo operations. They assaulted
+and took hostage the duty AB on routine
+rounds. The robbers stole ship’s stores
+from the paint locker. They released the
+duty AB and escaped in their boat. Alarm
+raised, crew mustered, and a search was
+carried out. The AB received minor injuries
+during the incident. Port Control and PFSO
+informed.",Africa,actual
+31,26.07.2019,330,anchored,boarded,Torm Thor,product tanker,Singapore,29484,9712292,06:18.06N,003:23.35E,Lagos Anchorage,Nigeria,"During routine rounds, duty crew, getting a
+strong smell of cargo, approached the
+forward cargo tanks and noticed one
+unauthorized person jumping overboard
+with a hose. Alarm raised and crew
+mustered. Investigations indicated that the
+person was trying to steal cargo. Incident
+reported to the Navy patrol boat in the
+vicinity. A search of the surrounding
+waters conducted. Nothing reported stolen.",Africa,actual
+32,26.07.2019,2130,berthed,boarded,New Century,tanker,Marshall Islands,41994,9298272,04:04.6S,039:39.8E,Mbaraki Wharf,Kenya,"Duty AB on routine rounds onboard the
+berthed tanker noticed a person climbing
+the mooring rope. Alarm sounded, crew
+mustered, and port control informed.
+Before a patrol boat could respond, the
+person had cut two mooring ropes and
+escaped.",Africa,actual
+33,29.07.2019,310,berthed,boarded,Burgundy,container,Liberia,36087,9372872,NA,NA,Port of Lagos,Nigeria,"Three robbers armed with metal sticks in a
+small boat approached and boarded the
+berthed ship. They attacked the duty AB on routine rounds, stole his personal
+belongings and escaped. Alarm raised and
+a search was carried out. The duty AB was
+slightly injured during the incident and
+further medical check-up was initiated. The
+incident was reported to the PFSO and
+Harbour Master.",Africa,actual
+34,29.07.2019,330,anchored,boarded,Bliss,bulk carrier,Marshall Islands,21059,9370331,06.19.8N,010:51.4W,Monrovia Roads,Liberia,"Duty AB noticed an unauthorized person
+on the deck and raised the alarm. Seeing the
+alerted crew the person cut the self-igniting
+light off the lifebuoy and then jumped
+overboard with the lifebuoy and escaped in
+a waiting boat. Local Authorities notified.",Africa,actual
+35,07.08.2019,1930,berthed,boarded,Celsius Riga,chemical tanker,Marshall Islands,29130,9430284,14:23.3S,040:42.0E,Nacala Outer Anchorage,Mozambique,"Two armed robbers boarded an anchored
+tanker via the hawse pipe and broke into the
+forecastle store. Alert crew noticed the
+robbers and raised the alarm resulting in the
+robbers escaping with stolen ship's stores.",Africa,actual
+36,14.08.2019,130,berthed,boarded,Prince Job 1,offshore supply ship,Nigeria,1847,9738636,04:40.50N,007:09.31E,Federal Ocean Terminal,Nigeria,"Duty officer onboard the berthed offshore
+supply vessel noticed a robber on the
+CCTV stealing ship’s properties from the
+pump room and immediately informed the
+Master. Crew quickly locked the robber
+inside the pump room. Seeing the alerted
+crew, the accomplice waiting in a canoe
+alongside the vessel escaped. Port authority
+was notified, and the robber was taken
+ashore for questioning and investigation.",Africa,actual
+37,15.08.2019,118,anchored,boarded,Name Withheld,bulk carrier,LIberia,22137,NA,03:52.40N,009:31.12E,Doala Anchorage,Cameroon,"Armed persons boarded the ship, stole crew
+and ship's property and escaped. The
+Cameroon Navy dispatched a patrol boat.
+When the crew emerged from hiding, it was
+reported that nine crew members were
+kidnapped from the ship. On 26.09.2019,
+the Owners confirmed that the nine
+kidnapped crew members were released
+safely on 25.09.2019.",Africa,actual
+38,15.08.2019,230,anchored,boarded,Name Withheld,general cargo,Antigua and Barbuda,7406,NA,03:52N,009:31E,Doala Anchorage,Cameroon,"Armed persons boarded the ship. The
+Cameroon Navy dispatched a patrol boat.
+When the crew emerged from hiding, it was
+reported that eight crew members were
+kidnapped from the ship. On 26.09.2019,
+the Owners confirmed that the eight
+kidnapped crew members were released
+safely on 20.09.2019.",Africa,actual
+39,17.08.2019,325,steaming,boarded,Name Withheld,LPG tanker,Liberia,18311,NA,03:34.84N,006:40.75E,50nm SE of Brass,Nigeria,"Pirates boarded a tanker underway. Alarm
+sounded and crew mustered in the citadel.
+Headcount indicated that one crew was
+missing in the citadel. Owners and
+Nigerian navy notified, and a naval patrol
+boat was dispatched. After the Nigerian
+naval team boarded the vessel and
+confirmed that no pirates found on board,
+the crew emerged from the citadel. On 12
+Dec 2019, the Owners confirmed that 1
+kidnapped crew member was released
+safely on 05 Oct 2019.",Africa,actual
+40,12.09.2019,0001-0700,berthed,boarded,Orient Tide,bulk carrier,Marshall Islands,23426,9467550,04:03.1N,009:41.3E,Port of Douala,Cameroon,"Unnoticed, robbers boarded the berthed
+ship during cargo operations. During
+routine rounds in the morning, it was noticed that the store’s padlock was broken
+and the door’s hinge damaged and bent.
+After checking, several ship’s properties
+and stores were reported stolen. Port
+Authorities informed.",Africa,actual
+41,13.09.2019,2200,steaming,boarded,Name WIthheld,fishing vessel,Cameroon,NA,NA,04:10.26N,008:55.38E,Around 4.5nm SW of Idenao,Cameroon,"Eight persons in a speed boat, boarded the
+fishing vessel conducting fishing
+operations. The perpetrators kidnapped two
+crew members and escaped. Cameroon
+navy notified and investigations are
+ongoing.",Africa,actual
+42,16.09.2019,250,anchored,boarded,Name WIthheld,product tanker,Marshall Islands,30641,NA,09:25.0N,013:44.1W,Around 5nm SSW of Conakry,Guinea,"Four robbers armed with a gun and knives
+boarded an anchored tanker. They took
+hostage the duty AB, tied his hands and
+forced him to lead them to the bridge. Once
+inside the bridge, the robbers took hostage
+the duty officer and forced him to lead them
+to the Captain, Chief Engineer, third officer
+and bosun’s cabins. After looting the
+cabins, the robbers locked the crew in a
+cabin and escaped. Crew personal
+belongings, cash and ship’s properties
+stolen.",Africa,actual
+43,23.09.2019,315,anchored,boarded,Grace Victoria,product tanker,Singapore,40953,9321201,06:17.7N,003:14.1E,Lagos Secure Anchorage Area,Nigeria,"Duty watchmen onboard the tanker noticed
+two robbers near the forward cargo tanks
+and raised the alarm. One robber shouted at
+the watchkeeper and made a threatening
+gesture. Alarm raised and Nigerian navy
+patrol boat responded and searched the
+waters around the tanker. Investigations
+showed a section of the razor wire was
+broken and the vapour locks of the forward
+cargo tanks were opened.",Africa,actual
+44,05.02.2019,Early Hours,steaming,boarded,MFB Dahlia,Fishing Vessel,Nigeria,NA,NA,04:21.07N,006:52.20E,NA,Nigeria,"A fishing vessel, having machinery problems drifted to the mouth of Sambreiro river where it was attacked by several persons. The persons vandalized the vessel and escaped. The vessel owners notified the Nigerian Navy, who were able to locate the vessel.",Africa,actual
+45,05.10.2019,200,anchored,boarded,UACC Mirdif,Product Tanker,Marshall Islands,26916,9402794,06:17.2N,003:13.8E,Lagos Secure Anchorage Area,Nigeria,"Security patrol onboard an anchored tanker noticed three robbers on the forecastle and immediately informed the OOW, who raised the alarm. Upon hearing the alarm, the robbers escaped without stealing anything. Incident reported to Nigerian Navy and a patrol boat arrived for investigation.",Africa,actual
+46,06.10.2019,2230,berthed,boarded,Rose M,product tanker,Panama,28059,9311000,NA,NA,"Apapa BOP Terminal, Lagos",Nigeria,"During cargo operations, around seven to eight armed persons in two wooden boats came alongside and boarded the berthed tanker. Alert crew noticed the persons, raised the alarm and stopped the discharging operations. Before escaping, the persons fired towards the crew. No injuries reported. Cargo from the terminal’s manifolds was reported stolen.",Africa,actual
+47,08.10.2019,2240,anchored,boarded,Fugro Helmert,research vessel,Gibraltar,496,9662978,04:45.4S,011:49.7E,Pointe Noire Anchorage,The Congo,"Master onboard the anchored research ship
+heard a sound and noticed one unknown
+person onboard. Master shouted and the person escaped. Emergency alarm raised
+and crew mustered. A boat was seen
+departing the ship with stolen ship's store. ",Africa,actual
+48,20.10.2019,320,anchored,boarded,Maersk Roubaix,container,Hong Kong,9957,9332688,04:45.19S,011:46.77E,Pointe Noire South Anchorage,The Congo,"Duty officer on routine rounds onboard an
+anchored ship noticed a mooring rope in
+the water and notified the bridge. Alarm
+raised and crew mustered. Investigations
+showed that the forward storeroom door
+was opened, and ship’s stores were stolen.
+A boat with two persons was seen moving
+away from the ship. Incident reported to
+Port Control.
+",Africa,actual
+49,02.11.2019,320,anchored,boarded,Bonita,bulk carrier,Norway,32315,9494060,06:14.9N,002:32.9E,Around 8.9nm SE of Cotonou,Benin,"Armed persons boarded an anchored ship. Incident reported to the Authorities who dispatched a patrol boat to the ship’s location. Nine crew were reported missing from the ship. The remaining crew with the assistance of the patrol boat sailed the ship to a safe port. On 12 Dec 2019, the Owners confirmed that the nine kidnapped crew were released on 06 Dec 2019",Africa,actual
+50,04.11.2019,240,anchored,boarded,Elka Aristotle,product tanker,Greece,55096,9249099,05:58.22N,001:15.70E,Around 9nm SSE of Lome,Togo,"Three persons armed with guns and knives boarded an anchored tanker and shot one armed guard in his leg. They entered into the accommodation and tried to force their way into the captain’s cabin but were unsuccessful. Alarm raised and SSAS activated. Once the armed persons left the tanker a headcount was taken, and four crew members were reported kidnapped. Togo Navy boarded the vessel for investigation. On 13 Dec 2019, the Owners confirmed that three crew members were released. One crew member died due to illness. ",Africa,actual
+51,08.11.2019,205,berthed,boarded,Atlantic Laurel,bulk carrier,Panama,20243,9494747,30:25.55N,009:38.88W,"Silos Terminal, Agadir Por",Morocco,"Duty officer noticed four unauthorized persons onboard the ship. Alarm raised and crew mustered. Seeing the alerted crew, the persons escaped. On searching the ship nothing reported stolen.",Africa,actual
+52,11.11.2019,700,steaming,boarded,Emmanuel Marine,passenger boat,Nigeria,NA,NA,NA,NA,"Enroute from Bonny
+to Onne Port",Nigeria,Ten armed persons attacked the passenger boat and kidnapped four Immigration Officers. The Nigerian Navy rescued the kidnapped Immigration Officers on 13 November. No casualties reported.,Africa,actual
+53,19.11.2019,2155,anchored,boarded,Baltic Mantis,bulk carrier,Marshall Islands,36353,9729489,14:22.51S,040:42.67E,Nacala Outer Anchorage,Mozambique,"Duty crew onboard an anchored ship noticed an unauthorised person on the forecastle deck and raised the alarm. Crew mustered and a search carried out. Seeing the alerted crew, the person escaped. Nothing reported stolen. All crew safe. Incident reported to Port Control.",Africa,actual
+54,03.12.2019,1810,steaming,boarded,Nave Constellation,tanker,Hong Kong,157039,9515929,03:06N,007:07E,Around 76nm South of Bonny,Nigeria,"Armed pirates attack and boarded an oil tanker underway. Nineteen crew were reported kidnapped. The vessel owners notified the Nigerian Navy and MRCC for assistance. Remaining crew sailed the tanker to a safe area. On 22 Dec 2019, the Owners confirmed that the nineteen kidnapped crew were released on 21 Dec
+2019. ",Africa,actual
+55,15.12.2019,800,steaming,boarded,Name Withheld,product tanker,Marshall Islands,11118,NA,04:23.59N,002:03.15E,Around 118nm SSW of Cotonou,Benin,"Around six heavily armed pirates boarded the tanker underway. They took hostage all crew members and destroyed ship’s equipment resulting in the tanker going into a blackout condition. The remaining crew sent a distress and requested to be towed to a safe area. Upon receiving the information, the IMB PRC immediately notified and liaised with the Regional Authorities to provide assistance. A Togo Navy ship was dispatched and arrangements made to tow the tanker. Twenty crew were reported missing.",Africa,actual
+56,17.12.2019,230,anchored,boarded,Maersk Trader,offshore tug,Denmark,4678,9388596,04:45.9S,011:46.6E,Pointe Noire Anchorage,The Congo,Two robbers in a canoe came alongside an anchored offshore tug. They boarded the vessel and stole ship’s properties. Incident reported to Port Control.,Africa,actual
+57,21.12.2019,25,anchored,boarded,River Shiner,product tanker,Marshall Islands,42661,9289752,06:15.4N,003:13.0E,Lagos Secure Anchorage Area,Nigeria,"Duty crew on board an anchored tanker
+noticed two unauthorized persons onboard
+and raised the alarm. Crew mustered. Naval
+patrol boat notified via VHF, which
+responded and searched the waters around
+the tanker. A search was carried out.
+Nothing reported stolen.",Africa,actual
+58,30.12.2019,2230,anchored,boarded,Name Withheld,product tanker,Greece,30201,NA,03:58.5N,009:05.4E,Limboh Anchorage,Cameroon,"Around six persons armed with guns boarded an anchored tanker. A distress message was sent by the tanker. The persons stole ship’s cash and properties and kidnapped eight crew members before escaping. One crew was reported injured. Upon receiving the distress message, the IMB PRC immediately notified and liaised with the Authorities. A security boat was sent by the Authorities to provide assistance. Investigation is on-going.",Africa,actual
+1,25.02.2019,1106,anchored,attempted,Name Withheld,bulk carrier,Marshall Islands,36332,NA,03:43.1S,114:26.3E,Taboneo Anchorage,Indonesia,"Duty watchman on routine rounds onboard an anchored ship noticed two robbers attempting to board via the anchor chain. He immediately informed the OOW who raised the alarm and crews mustered. Seeing the crew alertness, the robbers retreated into their waiting skiff and escaped. Incident reported to Taboneo Port Control.",South East Asia,attempted
+2,10.05.2019,100,steaming,attempted,Zhe Hai 169,bulk carrier,China,32962,9622784,07:40.8N,128:29.3E,Around 115nm East of Baganga,Philippines,"Unidentified persons in a speedboat approached the ship underway. Alarm raised, crew mustered, and fire hoses pressurized. The persons were observed to be shouting towards the ship while holding steel hooks. After 30 mins of chasing, the boat aborted and moved away. The ship resumed her passage.",South East Asia,attempted
+3,22.05.2019,1400,anchored,attempted,El Toro,yacht,Austria,27,NA,00:53.52S,131:14.36E,"Around 0.18nm SE of Pulau Doom, Sorong",Indonesia,"A person in the fishing boat approached an anchored sailing vessel and attempted to steal the sailing vessel’s dinghy. The skipper noticed the person and directed his hand lamp towards the person and shouted. Seeing the alerted skipper, the person let go of the dinghy and moved away. Incident reported to the local authorities.",South East Asia,attempted
+4,06.08.2019,2000,anchored,attempted,SG Pegasus,chemical tanker,Panama,8195,9494876,01:06.2N,104:10.7E,Tanjung Uban Anchorage,Indonesia,"Three robbers in a wooden boat came alongside an anchored tanker. They attempted to board the tanker using hooks attached with ropes. Duty Officer on security rounds on the bridge noticed the robbers and raised the alarm, sounded ship’s whistle and shouted at the robbers. Hearing the alarm and seeing the crew alertness, the robbers aborted the attempted boarding and escaped. Batam VTIS informed.",South East Asia,attempted
+5,23.09.2019,1700,anchored,attempted,Name Withheld,chemical tanker,Saudi Arabia,29575,NA,13:46N,120:59E,Mabini Anchorage,Philippines,Duty crew onboard an anchored tanker noticed a person attempting to open the anchor hawse pipe cover. Alarm raised and crew mustered. Incident reported to local agent.,South East Asia,attempted
+6,14.10.2019,2200,anchored,attempted,Name Withheld,product tanker,Saudi Arabia,29575,NA,03:55N,098:48E,Belawan Anchorage,Indonesia,"Duty crew onboard an anchored tanker noticed a person attempting to board via the anchor chain, while two other persons were waiting in the boat alongside the tanker. Duty crew reported the incident to OOW who raised the alarm. Seeing the alerted crew, the persons escaped in their boat.",South East Asia,attempted
+7,05.11.2019,1148,steaming,attempted,Gt Equality,product tanker,Vietnam,4159,9205512,01:12.6N,103:34.3E,Singapore Straits,Singapore,Six persons in two speed boats approached the tanker underway. Duty crew noticed the persons attempting to board the tanker and raised the alarm. Master increased the speed and took evasive manoeuvres resulting in the persons aborting the boarding attempt.,South East Asia,attempted
+8,07.11.2019,1900,berthed,attempted,Maersk Borneo,product tanker,Singapore,19758,9341445,03:47.2N,098:41.8E,Belawan Port,Indonesia,"During security rounds, crew onboard the berthed tanker noticed one unknown person trying to board the tanker using a grappling hook. Upon being noticed, the person escaped. Incident reported to Port Authority.",South East Asia,attempted
+9,02.12.2019,1910,steaming,attempted,BW Loyalty,tug,Singapore,160,9492622,1:10.94N ,103:56.6E ,Singapore Straits,Singapore,Five to seven persons in a wooden boat approached and attempted to board the tug underway. Duty watchman noticed the boat and raised the alarm resulting in the persons aborting and moving away. ,South East Asia,attempted
+1,01.12.2019,35,anchored,attempted,Dione,bulk carrier,Marshall Islands,40622,9213363,17:36.9N ,083:21.0E ,Visakhapatnam Anchorage,India,"Around 15 to 18 persons in three skiffs approached an anchored ship and attempted to board using a rope attached to a hook. Alert crew noticed the attempted boarding and notified the port control and Coast Guard. A patrol vessel was dispatched resulting in the robbers aborting and moving away. After chasing the boats for a while, the patrol boat managed to stop one skiff and arrested the persons onboard. ",Indian Sub-Continent,attempted
+1,03.01.2019,445,anchored,attempted,Star Kestrel,tanker,Panama,30068,9321940,10:16N ,064:42W ,Puerto La Cruz Anchorage,Venezuela,"Duty crew onboard an anchored tanker noticed robbers attempting to board using a grappling hook hooked to the guardrails of the poop deck. Alarm was raised, and ship’s horn sounded. Hearing the alerted crew, the robbers aborted the boarding attempt and escaped in their boat. Incident reported to Port Control. ",Americas,attempted
+2,19.03.2019,700,anchored,attempted,NA,vehicle carrier,Malta,61106,NA,12:01.66S ,077:12.03W ,Callao Anchorage,Peru,"Four robbers wearing jackets and caps in a small boat approached an anchored ship. Duty crew on routine rounds noticed the robbers attempting to board the ship via the anchor cable. Alarm raised, ship’s horn sounded, and crew directed flashlights towards the robbers. Seeing the alerted crew, the robbers aborted the attempted boarding and escaped. VTS Tramar and local agents informed. A patrol boat was dispatched to search the anchorage area. ",Americas,attempted
+3,01.04.2019,745,steaming,fired upon,NA,container,Germany,46009,NA,02:31.8S ,080:05.4W ,"Around 3.6nm WNW of Isla Escalante Island, Guayas",Ecuador,"Duty officer onboard the ship under pilotage noticed a fast-moving target on the radar approaching from astern. Crew alerted, and both searchlights directed towards the approaching boat. A second boat was noticed. One boat, with around 10 persons with grappling hooks followed the ship. The other boat approached the ship from the starboard side and attempted to hook a telescopic ladder to the ship’s rails. The pilot notified port control and the coast guard. The persons fired a few shots towards the search lights resulting in all crew retreating into the bridge and accommodation. Later the boats aborted their approach and moved away. All crew safe. ",Americas,attempted
+4,19.04.2019,535,steaming,attempted,NYK Lyra,container,Panama,75201,9229336,03:47.6N ,077:14.3W ,"Buenaventura Channel, Near Buoy No.13",Colombia,A boat with around eight to 10 persons approached the ship under pilotage and attempted to board via the rigged pilot ladder. Duty lookout noticed the boat and raised the alarm. Crew mustered near the pilot ladder resulting in the boat aborting and moving away. The pilot notified the Coast Guard and a patrol boat was dispatched to investigate. ,Americas,attempted
+5,03.05.2019,2010,steaming,attempted,Arequipa Queen,bulk carrier,Vanuatu,30598,9758765,00:08.0S ,081:19.9W ,Around 52nm WNW of Cabo Pasado,Ecuador,"Two speed boats with five persons in each boat approached the ship underway. Alarm raised, and crew mustered. The ship increase speed, commenced evasive manoeuvres and started spraying the boats with pressurised fire hoses, resulting in the boats moving away. Crew and ship reported safe. ",Americas,attempted
+1,07.01.2019,110,anchored,attempted,Aramon,product tanker,Marshall Islands,42225,9440485,06:15.7N ,003:12.8E ,Lagos SAA,Nigeria,"Around five robbers in a small skiff came alongside an anchored tanker and threw two ropes attached with hooks onto the tanker’s railing. Duty crew on routine rounds heard voices near the bow, noticed the hooks and the skiff. Alarm raised. Non-essential crew members mustered in the citadel. Master requested assistance from the Nigerian Navy patrol boat which immediately responded. Hearing the alarm, the robbers moved away. The patrol boat searched the waters around the tanker. ",Africa,attempted
+2,24.01.2019,1935,steaming,fired upon,NA,product tanker,Liberia,11118,NA,03:43N ,006:10E ,Around 35nm South of Brass,Nigeria,"A tanker was fired upon while underway. General alarm sounded, non-essential crews mustered in Citadel and the tanker conduct evasive manoeuvres. Due to the hardening measures, the pirates abort the attack. Incident reported to the Nigerian Navy. ",Africa,attempted
+3,25.01.2019,15,steaming,fired upon,Allegra,bulk carrier,Liberia,14599,9114476,03:32.8N ,006:11.6E ,Around 45nm South of Brass,Nigeria,"About five to seven armed pirates in a skiff chased and fired upon the ship underway. General alarm sounded, deck lights switched on, speed increased, and crew mustered in Citadel. Armed guards onboard the ship managed to repel the attempted attack. ",Africa,attempted
+4,25.01.2019,1530,steaming,fired upon,Samurai,tanker,Liberia,78845,9378876,03:02N ,006:05E ,Around 76nm SSW of Brass,Nigeria,"Around seven to eight armed pirates in a skiff chased, fired upon and tried to board the tanker underway. General alarm raised, non- essential crews mustered in the citadel and Master commenced evasive manoeuvres. Due to the hardening measures, the pirates aborted the attack. The tanker and crews reported safe. ",Africa,attempted
+5,21.02.2019,16,steaming,fired upon,Kota Satria,container,Singapore,41567,9645487,02:59.5N ,005:56.6E ,Around 80nm South of Brass,Nigeria,"Around four to six armed pirates in a speed boat chased and fired upon the ship underway. Alarm raised, and non-essential crew mustered in the citadel. Due to evasive manoeuvres, the boarding was evaded. Nigerian Navy notified. Ship and crew reported safe.",Africa,attempted
+6,27.02.2019,854,steaming,fired upon,NA,tanker,Marshall Islands,83805,NA,03:07.7N ,006:12.4E ,Around 69nm South of Brass,Nigeria,"Two skiffs with 16 armed persons chased, fired upon and attempted to board the tanker underway. General alarm raised, SSAS activated and non-essential crew mustered in the citadel. A security vessel in the vicinity responded to the master’s call resulting in the skiffs aborting and moving away. Crew and tanker reported safe. Incident reported to Nigerian Navy. ",Africa,attempted
+7,27.02.2019,2000,steaming,fired upon,African Gem,product tanker,Panama,28326,9085390,03:08N ,006:03E ,Around 70nm South of Brass,Nigeria,"Duty officer onboard the tanker underway noticed on radar, two targets at a distance of 4nm. At 2nm the targets were seen to cross the stern, increase speed and approach at high speed. As the skiffs closed in to the tanker, they opened fire. The onboard Nigerian naval personnel returned fire. The skiffs retreated and followed the tanker for a short duration before moving away. ",Africa,attempted
+8,28.02.2019,815,steaming,fired upon,Bourbon Explorer,offshore supply ship,France,3147,9653898,03:52.8N ,007:04.5E ,Around 30nm SSW of Bonny Island,Nigeria,"Two speed boats with 16-armed person chased and fired upon an offshore supply vessel underway. Alarm raised, vessel increased speed and commenced evasive manoeuvres and non-essential crew mustered in the citadel. The escorting security vessel intervened to repel the attack. Vessel sustain bullet damage on the bridge. All crew reported safe. Nigerian Navy escorted the vessel to a safe port. ",Africa,attempted
+9,03.05.2019,2000,steaming,fired upon,NA,product tanker,Liberia,11118,NA,02:58.25N ,005:16.12E ,Around 98.54nm SW of Brass,Nigeria,"Armed persons in a speedboat chased and fired upon the tanker underway. Alarm raised, tanker increased speed commenced evasive manoeuvres and non-essential crew mustered in the citadel. Due to evasive manoeuvres, the boarding was evaded. Nigerian Navy notified. The tanker and crew reported safe. ",Africa,attempted
+10,14.08.2019,1050,steaming,fired upon,Joseph Wisdom,LPG tanker,Panama,5848,9806732,04:09.6N ,008:22.5E ,Around 23nm SSE of Okposo,Nigeria,A suspicious boat approached and fired upon the tanker underway. Alarm raised and crews mustered in the citadel. Master took evasive actions resulting in the boat abandoning the attack. The tanker and crew reported safe. ,Africa,attempted
+11,07.11.2019,15,steaming,fired upon,Cascade Spirit,tanker,Bahamas,83545,9399492,01:13.6N ,006:09.6E ,Around 57nm NNW of Sao Tome Island,Democratic Republic of Sao Tome and Principe,"Armed persons in a skiff approached and fired upon the tanker underway. Alarm raised, tanker increased speed and commenced evasive manoeuvres. Fire pump activated, and four parachute rockets discharged. Due to the actions of the Master and crew, the skiff aborted and moved away. The tanker and crew safe. ",Africa,attempted
+12,13.12.2019,430,berthed,attempted,Nijinsky,LPG tanker,Singapore,16804,9364966,NA,NA,"Berth N37/2, Port of Algiers",Algeria,Duty crew onboard the berthed tanker noticed three unauthorised persons attempting to board via the forward mooring ropes. Alarm raised resulting in the persons escaping. Incident reported to PFSO. A search was carried out. Nothing reported stolen. ,Africa,attempted
+13,21.12.2019,2230,anchored,attempted,African Kalmia,bulk carrier,Liberia,19213,9666431,NA,NA,Owendo Anchorage,Gabon,"Around six armed persons in a skiff came alongside an anchored ship and attempted to hook a ladder to board the ship. The persons threatened the crew with their weapons. Alarm raised and port authorities notified. Seeing the alerted crew, the armed persons aborted the attempted boarding. The ship and crew are safe.",Africa,attempted

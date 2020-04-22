@@ -1,0 +1,12 @@
+name: pirateAttacks
+title: pirateAttacks
+username:
+account: emlynn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2159463
+bundleId: 3045849
+url: https://emlynn.shinyapps.io/pirateAttacks/
+when: 1587495892.40086
+asMultiple: FALSE
+asStatic: FALSE
