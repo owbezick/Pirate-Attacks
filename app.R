@@ -34,7 +34,7 @@ ui <- dashboardPage(
         sidebarMenu(
             menuItem(tabName = "welcome", text = "Welcome", icon = icon("info")) 
             , menuItem(tabName = "dataExploration", text = "Data Exploration", icon = icon("data"))
-            , menuItem(tabName = "data2", text = "More Data Exploration", icon = icon("data"))
+            , menuItem(tabName = "report", text = "Report", icon = icon("data"))
         )
     )
     # Body ----
@@ -79,33 +79,27 @@ ui <- dashboardPage(
                 tabName = "dataExploration"
                 , fluidRow(
                     column(width = 6
-                           , plotlyOutput("time")
+                           , plotlyOutput("time_plotly")
                     )
                     , column(width = 6
                              , plotlyOutput("island")
                     )
                 )
             )
-            #################################################
-            #we want to add teh results page here but there is some sort of disconnect b/w server and ui... when i add
-            #this tabItem it will set up the pages correctly but no data/maps/text on any of the pages. "helloWorld" text commented out rn.
-            # , tabItem(
-            #     tabName = "report"
-            #     , fluidRow(
-            #         box(width = 12, title = "Our Findings", status = "primary"
-            #             , column(width = 6
-            #                      , HTML("<b> Time of Day Results </b>")
-            #                      , uiOutput("helloWorld")
-            # 
-            #             )
-            #             , column(width = 6
-            #                      , HTML("<b> Island Nation Results </b>")
-            #                      , uiOutput("helloWorld")
-            #             )
-            #         )
-            # 
-            #     )
-            # )
+            , tabItem(
+                tabName = "report"
+                , fluidRow(
+                    box(width = 12, title = "Our Findings", status = "primary"
+                        , column(width = 6
+                                 , HTML("<b> Time of Day Results </b>")
+                        )
+                        , column(width = 6
+                                 , HTML("<b> Island Nation Results </b>")
+                        )
+                    )
+                    
+                )
+            )
         )
     )
 )
@@ -117,7 +111,6 @@ server <- function(input, output) {
     pirate <- read_rds("df_pirate.RDS")
     
     # Welcome ----
-    # renderText output ----
     output$aboutText <- renderText("For the Pirate Attack Project, we chose to look at the International Maritime Bureau’s 
                                    data on piracy world from 2015-2019, focusing on 2019. Misconceptions about modern piracy 
                                    flood our imaginations with pictures of eye patches, skull & crossbones, and scruffy men 
@@ -172,7 +165,7 @@ server <- function(input, output) {
         iconWidth = 30, iconHeight = 30,
         iconAnchorX = 22, iconAnchorY = 94,
     )
-
+    
     #TODO  add "ship_name" and "flag" variables in the popup. still gotta figure out how to. 
     # Have the ship_name as a label right now.
     # Leaflet
@@ -191,21 +184,25 @@ server <- function(input, output) {
                              options = layersControlOptions(collapsed = FALSE))
     })
     
-    # Data Viz ----
-    #time of day
-    chart1 <- pirate %>% 
+    # Data Exploration ----
+    # Time Graph
+    # Plot
+    time_plot <- pirate %>% 
         ggplot(aes(x = time)) +
-        geom_density(aes(color = region), binwidth = 100, boundary = 0)+
+        geom_density(aes(color = region)
+                     , binwidth = 100
+                     , boundary = 0)+
         scale_x_continuous(breaks = seq(0, 2359, by = 200)) +
-        labs(title = "Attacks Per Hour", subtitle = "What time of day was a ship more likely to be attacked?", caption = "Source: International Maritime Bureau", x = "Hour", y = "Attacks") +
-        theme (axis.text.x = element_text(angle = 45))
+        labs(title = "Attacks Per Hour"
+             , subtitle = "What time of day was a ship more likely to be attacked?"
+             , caption = "Source: International Maritime Bureau"
+             , x = "Hour"
+             , y = "Attacks") +
+        theme(axis.text.x = element_text(angle = 45))
     
-    
-    # Radial stacked bar chart
-    ###########################################33
-    #currently planning to un-plotly this chart and animate it instead. But issue rn is we can't get it to show up next to the other chart.
-    output$time <- renderPlotly({
-        ggplotly(chart1, tooltip = "text") %>% 
+    # Plotly
+    output$time_plotly <- renderPlotly({
+        ggplotly(time_plot, tooltip = "text") %>% 
             layout(title = list(text = paste0('Attacks Per Hour',
                                               '<br>',
                                               '<sup>',
@@ -213,34 +210,38 @@ server <- function(input, output) {
                                               '</sup>')))
     })
     
-    # Island Viz
-    # Data
-    island_df <- pirate %>% 
+    # Island Graph
+    # Plot
+    island_plot <- pirate %>% 
         group_by(flag) %>% 
         count(sort = TRUE) %>%
-        mutate(frequency = (n / 163), typeC = case_when(
-            flag %in% islands ~ "Island Nation", TRUE ~ "Mainland Nation") , percentage = frequency * 100)
-    
-    #make a plot with the info
-    island_plot <- island_df %>% 
+        mutate(frequency = (n / 163)
+               , typeC = case_when(
+                   flag %in% islands ~ "Island Nation", TRUE ~ "Mainland Nation")
+               , percentage = frequency * 100) %>% 
         head(10) %>%
         ggplot()+
         geom_point(aes(x=reorder(flag, desc(frequency)), y = frequency, color = typeC, text = sprintf("Frequency: %.2f%% <br>Number of Ships Attacked: %.0f<br> ", percentage, n)
-        ))+
+        )
+        ) +
         scale_y_continuous(labels = scales::percent) +
         labs(title = "Frequency of Pirate Attacks For Island Nations Versus Mainland Nations", subtitle = "Are island nations’ ships more likely to experience attacks?", caption = "Source: International Maritime Bureau", x = "Origin Country of Ship", y = "Frequency") +
         theme(legend.title = element_blank()) +
-        theme (axis.text.x = element_text(angle = 45))
+        theme (axis.text.x = element_text(angle = 45)
+        )
     
-    #make the graph plotly
+    # Plotly
     output$island <- renderPlotly({
         ggplotly(island_plot, tooltip = "text") %>% 
             layout(title = list(text = paste0('Frequency of Pirate Attacks For Island Nations Versus Mainland Nations',
                                               '<br>',
                                               '<sup>',
                                               'Are island nations’ ships more likely to experience attacks?',
-                                              '</sup>')))
+                                              '</sup>')
+            )
+            )
     })
+    # Report Server
     
 }
 
