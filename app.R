@@ -1,15 +1,3 @@
-#
-# This is a template Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-# Author: Owen Bezick
-# 
-
-# Source Libraries
 # Libraries 
 
 # Shiny
@@ -27,18 +15,18 @@ library(tidyverse)
 
 # UI ----
 ui <- dashboardPage(
-    dashboardHeader(title = "Pirate Attacks" # Creates dashboardHeaderPlus title (can inject javascript here to add pictures, fonts, etc.)
+    dashboardHeader(title = "Pirate Attacks" 
     )
     # Sidebar ----
-    , dashboardSidebar( # Contains a sidebarMenu with menuItems and subMenuItems
+    , dashboardSidebar( 
         sidebarMenu(
-            menuItem(tabName = "welcome", text = "Welcome", icon = icon("info")) # menuItem
+            menuItem(tabName = "welcome", text = "Welcome", icon = icon("info"))
             , menuItem(tabName = "data1", text = "Data Exploration", icon = icon("data"))
             , menuItem(tabName = "data2", text = "More Data Exploration", icon = icon("data"))
-        )#font awsome library for more
+        )
     )
     # Body ----
-    , dashboardBody( # Contains tabItems
+    , dashboardBody( 
         tabItems(
             # Welcome ----
             tabItem(
@@ -132,53 +120,38 @@ ui <- dashboardPage(
 
 # Define server logic 
 server <- function(input, output) {
-    # Data Import and Cleaning ----
-    pirate <- read_csv("data_final.csv")
+    # Data Import ----
+    pirate <- read_rds("pirate.RDS")
     
-    pirate <- pirate %>% 
-        head(163)
+    # Welcome ----
+    output$aboutText <- renderText("For the Pirate Attack Project, we chose to look at the International Maritime Bureau’s 
+                                   data on piracy world from 2015-2019, focusing on 2019. Misconceptions about modern piracy 
+                                   flood our imaginations with pictures of eye patches, skull & crossbones, and scruffy men 
+                                   yelling “arrrrgh”. This is not reality, however. The Pirate Attack Project seeks to dispel 
+                                   these misconceptions and shed light on the trends and issues surrounding theft on the high 
+                                   seas in 2020. Through interactive maps, charts, and authentic attack narrations, we explore 
+                                   questions like “Are ships from island nations more likely to experience attacks?” or “What 
+                                   time of day should crews be most on their guard against intruders?”.  We are intrigued as 
+                                   to how the Pirate Attack Project will change our (and hopefully your) thinking about piracy.") 
+
+    output$modernPiracy <- renderText("A partial definition according to the International Maritime Bureau says “piracy” is 
+    “any illegal acts of violence or detention, or any act of depredation, committed for private ends by the crew or the 
+    passengers of a private ship or a private aircraft, and directed on the high seas, against another ship or aircraft, 
+    or against persons or property on board such ship or aircraft.” Modern pirates are not usually carefree adventurers
+                                      looking for some treasure and a good time. Often, pirates are poor men using rafts, 
+                                      old boats, and a variety of simple weapons to carry out amateur attacks. For example,
+                                      when international fishing vessels began encroaching on Somali waters, depleting fish 
+                                      stocks and forcing fishermen out of business, Somali pirate groups began to form. In the 
+                                      Gulf of Aden, Somali pirates soon became a high-profile issue. Next, did you know that the
+                                      “gold” for modern pirates is not a heavy yellow metal? Ransoms paid to recover hostage 
+                                      sailors are the true modern “treasures” in the world of piracy. Sailors face this continual 
+                                      threat in areas like the Gulf of Guinea, the Strait of Malacca, the Indian Ocean, and the
+                                      Singapore Straits. Have you ever thought of insurance costs involved with a 21st century pirate
+                                      attack? Many ships refrain from reporting incidents to avoid higher insurance costs. Several
+                                      other factors influence the likelihood of piracy today, such as the flag your ship flies, the
+                                      time of day, or the city where your ship is berthed.")
     
-    pirate <- pirate %>%
-        mutate(#Make sure all values that should be lowercase are lowercase
-            boat_status = tolower(boat_status),
-            attack_status = tolower(attack_status),
-            type = tolower(type),
-            success = tolower(success),
-            # Converted dates to Day-Month-Year format
-            date = dmy(date),
-            # Converted time to Hour-Minute-Second format
-            time = as.numeric(time),
-            #time = data.table::as.ITime(as.POSIXct(time, format = "%H%M")),
-            # For all South latitudes, add a minus sign at the beginning
-            latitude = ifelse(str_detect(latitude,"S"),str_c("-",latitude),latitude),
-            # Get rid of the S and N at the end of latitude
-            latitude = str_replace(latitude, "S", ""),
-            latitude = str_replace(latitude, "N", ""),
-            # For all West longitudes, add a minus sign at the beginning
-            longitude = ifelse(str_detect(longitude,"W"),str_c("-",longitude),longitude),
-            # Get rid of the E and W at the end of latitude
-            longitude = str_replace(longitude, "W", ""),
-            longitude = str_replace(longitude, "E", "")) %>% 
-        #Separate longitude and latitude degrees and minutes
-        separate(longitude, c("lo_deg","lo_min"), sep = ":") %>% 
-        separate(latitude, c("la_deg", "la_min"), sep = ":") %>%
-        mutate(la_deg = as.numeric(la_deg),
-               lo_deg = as.numeric(lo_deg),
-               la_min = ifelse(la_deg < 0, str_c("-", la_min), la_min ),
-               lo_min = ifelse(lo_deg < 0, str_c("-", lo_min), lo_min ),
-               la_min = round(as.numeric(la_min)),
-               lo_min = round(as.numeric(lo_min)),
-               longitude = lo_deg + (lo_min / 60),
-               latitude = la_deg + (la_min / 60)) %>% 
-        select(-lo_deg, -lo_min, -la_deg, -la_min)
-    
-    # renderText output ----
-    output$aboutText <- renderText("For the Pirate Attack Project, we chose to look at the International Maritime Bureau’s data on piracy world from 2015-2019, focusing on 2019. Misconceptions about modern piracy flood our imaginations with pictures of eye patches, skull & crossbones, and scruffy men yelling “arrrrgh”. This is not reality, however. The Pirate Attack Project seeks to dispel these misconceptions and shed light on the trends and issues surrounding theft on the high seas in 2020. Through interactive maps, charts, and authentic attack narrations, we explore questions like “Are ships from island nations more likely to experience attacks?” or “What time of day should crews be most on their guard against intruders?”.  We are intrigued as to how the Pirate Attack Project will change our (and hopefully your) thinking about piracy.") # Output to be used in the UI
-    output$modernPiracy <- renderText("A partial definition according to the International Maritime Bureau says “piracy” is “any illegal acts of violence or detention, or any act of depredation, committed for private ends by the crew or the passengers of a private ship or a private aircraft, and directed on the high seas, against another ship or aircraft, or against persons or property on board such ship or aircraft.”
-    Modern pirates are not usually carefree adventurers looking for some treasure and a good time. Often, pirates are poor men using rafts, old boats, and a variety of simple weapons to carry out amateur attacks. For example, when international fishing vessels began encroaching on Somali waters, depleting fish stocks and forcing fishermen out of business, Somali pirate groups began to form. In the Gulf of Aden, Somali pirates soon became a high-profile issue. Next, did you know that the “gold” for modern pirates is not a heavy yellow metal? Ransoms paid to recover hostage sailors are the true modern “treasures” in the world of piracy. Sailors face this continual threat in areas like the Gulf of Guinea, the Strait of Malacca, the Indian Ocean, and the Singapore Straits. Have you ever thought of insurance costs involved with a 21st century pirate attack? Many ships refrain from reporting incidents to avoid higher insurance costs. Several other factors influence the likelihood of piracy today, such as the flag your ship flies, the time of day, or the city where your ship is berthed.")
-    
-    output$helloWorld <-renderText("Hello World")
-    
+    # Map Graphics ----
     # List of regions
     ls_region <- unique(pirate$region)
     
@@ -206,9 +179,6 @@ server <- function(input, output) {
         iconUrl = "historic_ship.png",
         iconWidth = 30, iconHeight = 30,
         iconAnchorX = 22, iconAnchorY = 94,
-        #shadowUrl = "historic_ship.png",
-        #shadowWidth = 50, shadowHeight = 64,
-        #shadowAnchorX = 4, shadowAnchorY = 62
     )
     
     # Leaflet
@@ -219,11 +189,15 @@ server <- function(input, output) {
             addProviderTiles(providers$Esri.WorldImagery, group = "World Imagery (default)") %>%
             addProviderTiles(providers$Stamen.TonerLite, group = "Toner Lite") %>%
             addMarkers(pirate$longitude, pirate$latitude, 
-                       clusterOptions = markerClusterOptions(removeOutsideVisibleBounds = F), popup =  ~htmlEscape(pirate$narration), label = ~htmlEscape(pirate$ship_name), icon = shipIcon) %>%
+                       clusterOptions = markerClusterOptions(removeOutsideVisibleBounds = F)
+                       , popup =  ~htmlEscape(pirate$narration)
+                       , label = ~htmlEscape(pirate$ship_name)
+                       , icon = shipIcon) %>%
             addLayersControl(baseGroups = c( "World Imagery (default)", "Toner Lite"),
                              options = layersControlOptions(collapsed = FALSE))
     })
     
+    #
     #time of day
     chart1 <- pirate %>% 
         ggplot(aes(x = time)) +
