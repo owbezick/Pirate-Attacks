@@ -164,7 +164,7 @@ server <- function(input, output) {
     shipIcon <- makeIcon(
         iconUrl = "historic_ship.png",
         iconWidth = 30, iconHeight = 30,
-        iconAnchorX = 22, iconAnchorY = 94,
+        iconAnchorX = 0, iconAnchorY = 0,
     )
     
     #TODO  add "ship_name" and "flag" variables in the popup. still gotta figure out how to. 
