@@ -92,6 +92,7 @@ ui <- dashboardPage(
                     box(width = 12, title = "Our Findings", status = "primary"
                         , column(width = 6
                                  , HTML("<b> Time of Day Results </b>")
+                                 
                         )
                         , column(width = 6
                                  , HTML("<b> Island Nation Results </b>")
@@ -177,7 +178,11 @@ server <- function(input, output) {
             addProviderTiles(providers$Stamen.TonerLite, group = "Toner Lite") %>%
             addMarkers(pirate$longitude, pirate$latitude, 
                        clusterOptions = markerClusterOptions(removeOutsideVisibleBounds = F)
-                       , popup =  ~htmlEscape(pirate$narration)
+                       , popup =  paste0(pirate$ship_name
+                                         , "<br>"
+                                         , pirate$flag
+                                         , "<br>"
+                                         , pirate$narration, "<br>")
                        , label = ~htmlEscape(pirate$ship_name)
                        , icon = shipIcon) %>%
             addLayersControl(baseGroups = c( "World Imagery (default)", "Toner Lite"),
