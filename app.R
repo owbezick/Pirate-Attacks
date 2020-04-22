@@ -178,11 +178,13 @@ server <- function(input, output) {
             addProviderTiles(providers$Stamen.TonerLite, group = "Toner Lite") %>%
             addMarkers(pirate$longitude, pirate$latitude, 
                        clusterOptions = markerClusterOptions(removeOutsideVisibleBounds = F)
-                       , popup =  paste0(pirate$ship_name
+                       , popup =  paste0("Ship Name: ", pirate$ship_name
                                          , "<br>"
-                                         , pirate$flag
+                                         ,"Flag: ", pirate$flag
                                          , "<br>"
-                                         , pirate$narration, "<br>")
+                                         , pirate$narration
+                                         , "<br>"
+                                         )
                        , label = ~htmlEscape(pirate$ship_name)
                        , icon = shipIcon) %>%
             addLayersControl(baseGroups = c( "World Imagery (default)", "Toner Lite"),
